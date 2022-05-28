@@ -51,26 +51,25 @@ Extraction code: j5ge
 
 ### a. Training VOC07+12 Dataset
 1. Data Set Preparation
-**This article uses VOC format for training, which is required, before training, You have to download VOC07+12 Dataset, uncompressed and placed in root directory**
-
-2.data set processing   
-Modify `voc_annotatino.py` and run the modified `voc_annotation.py` to generate `2007_train.txt` and `2007_val.txt` under root directory.
+  **This article uses VOC format for training, which is required, before training, You have to download VOC07+12 Dataset, uncompressed and placed in root directory**
+  
+2. Data set processing   
+  Modify `voc_annotatino.py` and run the modified `voc_annotation.py` to generate `2007_train.txt` and `2007_val.txt` under root directory.
 
 3. Begin network training.   
-The default parameters for `train.py` are used to train the VOC dataset. Run `train.py` directly to begin training.
+  The default parameters for `train.py` are used to train the VOC dataset. Run `train.py` directly to begin training.
 
-4. training result prediction  
+4. Training result prediction  
   Training results prediction needs to use two files, `predict.py` and `predict.py`. We first need to go to `centernet.py` to modify `model_path` and `classes_path`. Both parameters must be modified.
-  
-**`model_path` points to the trained weight file in the Logs folder.
-`classes_path` points to the txt file corresponding to the detection class.**
-When the modificatoin is complete, you can run `predict.py` for prediction. It can be detected by entering the path of the picture after running.
+  **`model_path` points to the trained weight file in the Logs folder.
+  `classes_path` points to the txt file corresponding to the detection class.**
+  When the modificatoin is complete, you can run `predict.py` for prediction. It can be detected by entering the path of the picture after running.
 
 ### b. Train your own dataset
 1. Data set preparation
-** This article uses VOCFormat training, need to make your own dataset before training,**
-Place label files before training. Annotation under `VOC2007` folder under `VOCdevkit` folder of your environment.
-Place picture files before trainingJPEG Images under VOC 2007 folder under VOC devkit folder of your environment.
+  ** This article uses VOCFormat training, need to make your own dataset before training,**
+  Place label files before training. Annotation under `VOC2007` folder under `VOCdevkit` folder of your environment.
+  Place picture files before trainingJPEG Images under VOC 2007 folder under VOC devkit folder of your environment.
 
 2. Data set processing
   After the data set has been placed, we need to use `voc_annotation.py` to get `2007_train.txt` and `2007_val.txt` for training.
@@ -82,28 +81,29 @@ cat
 dog
 ...
 ```
-
-Modify the `classes_path` in `voc_annotation.py` to correspond to `cls_classes.txt` and run `voc_annotation.py`.
+  Modify the `classes_path` in `voc_annotation.py` to correspond to `cls_classes.txt` and run `voc_annotation.py`.
 
 3. Begin training network.  
-**Most of the training parameters are available at `train.py`. You can read the notes carefully after downloading the library. The most important part of the training is still `classes_path` in `train.py`.**  
-**`classes_path` is used to point to the txt file corresponding to the detection category, which is the same as the txt file in `voc_annotation.py`! Modify it to rain your own dataset**  
-After modifying the `classes_path`, you can run `train.py` to start training. After training multiple epochs, the weights will be generated in the `logs` folder  
+  **Most of the training parameters are available at `train.py`. You can read the notes carefully after downloading the library. The most important part of the training is still `classes_path` in `train.py`.**  
+  **`classes_path` is used to point to the txt file corresponding to the detection category, which is the same as the txt file in `voc_annotation.py`! Modify it to rain your own dataset**  
+  After modifying the `classes_path`, you can run `train.py` to start training. After training multiple epochs, the weights will be generated in the `logs` folder  
 
 4. training result prediction  
-Training results prediction needs to use two files, `predict.py` and `predict.py`. We first need to go to `centernet.py` to modify `model_path` and `classes_path`. Both parameters must be modified.
-
-**`model_path` points to the trained weight file in the Logs folder.
-`classes_path` points to the txt file corresponding to the detection class.**
-When the modificatoin is complete, you can run `predict.py` for prediction. It can be detected by entering the path of the picture after running.
+  Training results prediction needs to use two files, `predict.py` and `predict.py`. We first need to go to `centernet.py` to modify `model_path` and `classes_path`. Both parameters must be modified.
+  
+  **`model_path` points to the trained weight file in the Logs folder.
+  `classes_path` points to the txt file corresponding to the detection class.**
+  When the modificatoin is complete, you can run `predict.py` for prediction. It can be detected by entering the path of the picture after running.
 
 ## Prediction Step
+
 ### a.Using Pre-Training Weights
 1. Unzip the library after downloading, download the weight on the Baidu disk, put in model_data, run `predict.py`, enter
   ```python
 img/street.jpg
 ```
 2. You can set it up at `predict.py` to perform fps tests and video detection 
+
 ### b. Use one's own training weights
 1. Follow the training procedures.  
 2. In the `centernet.py` file, modify `model_path` and `classes_path` to correspond to the trained file in the following section: **`model_path` corresponds to the weight file under the `Logs` folder. `classes_path` is the classes of `model_path` corresponding to the classes**.
