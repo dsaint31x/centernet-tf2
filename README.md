@@ -1,4 +1,5 @@
 ## CenterNet:Object as Points, Implementation of CenterNet Object Detection Model in Tensorflow2
+
 ---
 
 ## Table of Contents
@@ -72,11 +73,11 @@ Place label files before training. Annotation under `VOC2007` folder under `VOCd
 Place picture files before trainingJPEG Images under VOC 2007 folder under VOC devkit folder of your environment.
 
 2. Data set processing
-After the data set has been placed, we need to use `voc_annotation.py` to get `2007_train.txt` and `2007_val.txt` for training.
-Modify the parameters in `voc_annotation.py`. The first training can only modify `classes_path`, which is used to point to the txtfile corresponding to the detection class.
-When you train your own dataset, you can create your own `cls_classes.txt`, and write down the categories you want to distinguish.
-The contents of the `model_data/cls_classes.txt` file are as follows:
-```python
+  After the data set has been placed, we need to use `voc_annotation.py` to get `2007_train.txt` and `2007_val.txt` for training.
+  Modify the parameters in `voc_annotation.py`. The first training can only modify `classes_path`, which is used to point to the txtfile corresponding to the detection class.
+  When you train your own dataset, you can create your own `cls_classes.txt`, and write down the categories you want to distinguish.
+  The contents of the `model_data/cls_classes.txt` file are as follows:
+  ```python
 cat
 dog
 ...
@@ -99,14 +100,14 @@ When the modificatoin is complete, you can run `predict.py` for prediction. It c
 ## Prediction Step
 ### a.Using Pre-Training Weights
 1. Unzip the library after downloading, download the weight on the Baidu disk, put in model_data, run `predict.py`, enter
-```python
+  ```python
 img/street.jpg
 ```
 2. You can set it up at `predict.py` to perform fps tests and video detection 
 ### b. Use one's own training weights
 1. Follow the training procedures.  
 2. In the `centernet.py` file, modify `model_path` and `classes_path` to correspond to the trained file in the following section: **`model_path` corresponds to the weight file under the `Logs` folder. `classes_path` is the classes of `model_path` corresponding to the classes**.
-```python
+  ```python
 _defaults = {
     #--------------------------------------------------------------------------#
     #  Make sure to modify `model_path` and `class_path` to make predictions using your own trained model!
@@ -145,7 +146,7 @@ _defaults = {
 }
 ```
 3. Run `predict.py` and enter  
-```python
+  ```python
 img/street.jpg
 ```
 4. You can set it up at `predict.py` to perform fps tests and video detection.
