@@ -3,14 +3,14 @@
 
 ## Table of Contents
 1. [Update Top News ]
-2. [Performance] (#Performance)
-3. [Required Environment] (#Required Environment)
-4. [Notes on Attention] (#Notes on Attention)
-5. [Download] (#Download)
-6. [Training Steps  : How2train] (#Training Steps)
-7. [Prediction Step : How2predict] (#Prediction Step)
-8. [Assessment Step : How2val] (#Assessment Step)
-9. [Reference] (#Reference)
+2. [Performance](#Performance)
+3. [Required Environment](#Required Environment)
+4. [Notes on Attention](#Notes on Attention)
+5. [Download](#Download)
+6. [Training Steps  : How2train](#Training Steps)
+7. [Prediction Step : How2predict](#Prediction Step)
+8. [Assessment Step : How2val](#Assessment Step)
+9. [Reference](#Reference)
 
 ## Top News
 **`2022-04`**:**There were significant updates, supporting step, COS learning rate drop method, supporting ADAM, SGD optimizer selection, supporting learning rate adjustment according to Batch_size adaptation, and additional picture cutting.Supports multi-GPU training, adds calculation of target by type, and adds heatmap.**  
