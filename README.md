@@ -1,4 +1,4 @@
-## CenterNet:Objects as Points目标检测模型在Tensorflow2当中的实现
+## CenterNet:Object as Points, Implementation of CenterNet Object Detection Model in Tensorflow2
 ---
 
 ## 目录
@@ -12,152 +12,168 @@
 8. [评估步骤 How2eval](#评估步骤)
 9. [参考资料 Reference](#Reference)
 
+## Table of Contents
+1. [Update Top News ]
+2. [Performance] (#Performance)
+3. [Required Environment] (#Required Environment)
+4. [Notes on Attention] (#Notes on Attention)
+5. [Download] (#Download)
+6. [Training Steps  : How2train] (#Training Steps)
+7. [Prediction Step : How2predict] (#Prediction Step)
+8. [Assessment Step : How2val] (#Assessment Step)
+9. [Reference] (#Reference)
+
 ## Top News
-**`2022-04`**:**进行了大幅度的更新，支持step、cos学习率下降法、支持adam、sgd优化器选择、支持学习率根据batch_size自适应调整、新增图片裁剪。支持多GPU训练，新增各个种类目标数量计算，新增heatmap。**  
-BiliBili视频中的原仓库地址为：https://github.com/bubbliiiing/centernet-tf2/tree/bilibili
+**`2022-04`**:**There were significant updates, supporting step, COS learning rate drop method, supporting ADAM, SGD optimizer selection, supporting learning rate adjustment according to Batch_size adaptation, and additional picture cutting.Supports multi-GPU training, adds calculation of target by type, and adds heatmap.**  
+The original warehouse address in the BiliBili video is: https://github.com/bubbliiiing/centernet-tf2/tree/bilibili
 
-**`2021-10`**:**进行了大幅度的更新，增加了大量注释、增加了大量可调整参数、对代码的组成模块进行修改、增加fps、视频预测、批量预测等功能。**   
+**`2021-10`**:**Large updates were made, annotations were added, adjustable parameters were added, code modules were modified, fps, video forecasting, bulk forecasting, etc.。**   
 
-## 性能情况
-| 训练数据集 | 权值文件名称 | 测试数据集 | 输入图片大小 | mAP 0.5:0.95 | mAP 0.5 |
+## Performance
+| training dataset | weight file name | test dataset | input picture size | mAP 0.5:0.95 | mAP 0.5 |
 | :-----: | :-----: | :------: | :------: | :------: | :-----: |
 | VOC07+12 | [centernet_resnet50_voc.h5](https://github.com/bubbliiiing/centernet-tf2/releases/download/v1.0/centernet_resnet50_voc.h5) | VOC-Test07 | 512x512 | - | 77.1
 | COCO-Train2017 | [centernet_hourglass_coco.h5](https://github.com/bubbliiiing/centernet-tf2/releases/download/v1.0/centernet_hourglass_coco.h5) | COCO-Val2017 | 512x512 | 39.0 | 57.6 
 
-## 所需环境
+## Required Environment
 tensorflow-gpu==2.2.0  
-由于tensorflow2中已经有keras部分，所以不需要额外装keras
+No extra keras is required because there is already a keras section in tensorflow2
 
-## 注意事项
-代码中的centernet_resnet50_voc.h5是使用voc数据集训练的。    
-代码中的centernet_hourglass_coco.h5是使用voc数据集训练的。   
-**注意不要使用中文标签，文件夹中不要有空格！**     
-**在训练前需要务必在model_data下新建一个txt文档，文档中输入需要分的类，在train.py中将classes_path指向该文件**。     
+## Notes on Attention
+The `centet_resnet50_voc.h5` in code is trained using the ***voc dataset***.
+The `centet_hourglass_coco.h5` in the code is trained using the ***VOC dataset***.
+**Be careful not to use Chinese labels, and don't leave any spaces in the folder!**     
+**Be sure to create a new `txt` file under your *model_data* before training. Enter the classes you want to detect in the file. Point classes to the file at `train.py`**。     
 
-## 文件下载 
-训练所需的centernet_resnet50_voc.h5、centernet_hourglass_coco.h5和主干的权值可在百度网盘中下载。    
-链接: https://pan.baidu.com/s/16f3YU8pC_r1Ow7J9XiEB8w     
-提取码: rmr5    
+## Download 
+The weights for the training requirements of `centernet_resnet50_voc.h5`, `centernet_hourglass_coco.h5`, and the backbone can be downloaded from the Baidu disk.
+Link: https://pan.baidu.com/s/16f3YU8pC_r1Ow7J9XiEB8w     
+Extraction code: rmr5    
 
-centernet_resnet50_voc.h5是voc数据集的权重。    
-centernet_hourglass_coco.h5是coco数据集的权重。    
+`centernet_resnet50_voc.h5` is the weight of the voc dataset. 
+`centernet_hourglass_coco.h5` is the weight of the Coco dataset.
 
-VOC数据集下载地址如下，里面已经包括了训练集、测试集、验证集（与测试集一样），无需再次划分：  
-链接: https://pan.baidu.com/s/19Mw2u_df_nBzsC2lg20fQA   
-提取码: j5ge   
+The VOC dataset download address is as follows. It already contains training sets, test sets, verification sets (as with test sets) and does not need to be subdivided:
+Link: https://pan.baidu.com/s/19Mw2u_df_nBzsC2lg20fQA   
+Extraction code: j5ge   
 
-## 训练步骤
-### a、训练VOC07+12数据集
-1. 数据集的准备   
-**本文使用VOC格式进行训练，训练前需要下载好VOC07+12的数据集，解压后放在根目录**  
+## Training Steps
 
-2. 数据集的处理   
-修改voc_annotation.py里面的annotation_mode=2，运行voc_annotation.py生成根目录下的2007_train.txt和2007_val.txt。   
+### a. Training VOC07+12 Dataset
+1. Data Set Preparation
+**This article uses VOC format for training, which is required, before training, You have to download VOC07+12 Dataset, uncompressed and placed in root directory**
 
-3. 开始网络训练   
-train.py的默认参数用于训练VOC数据集，直接运行train.py即可开始训练。   
+2.data set processing   
+Modify `voc_annotatino.py` and run the modified `voc_annotation.py` to generate `2007_train.txt` and `2007_val.txt` under root directory.
 
-4. 训练结果预测   
-训练结果预测需要用到两个文件，分别是centernet.py和predict.py。我们首先需要去centernet.py里面修改model_path以及classes_path，这两个参数必须要修改。   
-**model_path指向训练好的权值文件，在logs文件夹里。   
-classes_path指向检测类别所对应的txt。**   
-完成修改后就可以运行predict.py进行检测了。运行后输入图片路径即可检测。   
+3. Begin network training.   
+The default parameters for `train.py` are used to train the VOC dataset. Run `train.py` directly to begin training.
 
-### b、训练自己的数据集
-1. 数据集的准备  
-**本文使用VOC格式进行训练，训练前需要自己制作好数据集，**    
-训练前将标签文件放在VOCdevkit文件夹下的VOC2007文件夹下的Annotation中。   
-训练前将图片文件放在VOCdevkit文件夹下的VOC2007文件夹下的JPEGImages中。   
+4. training result prediction  
+  Training results prediction needs to use two files, `predict.py` and `predict.py`. We first need to go to `centernet.py` to modify `model_path` and `classes_path`. Both parameters must be modified.
+  
+**`model_path` points to the trained weight file in the Logs folder.
+`classes_path` points to the txt file corresponding to the detection class.**
+When the modificatoin is complete, you can run `predict.py` for prediction. It can be detected by entering the path of the picture after running.
 
-2. 数据集的处理  
-在完成数据集的摆放之后，我们需要利用voc_annotation.py获得训练用的2007_train.txt和2007_val.txt。   
-修改voc_annotation.py里面的参数。第一次训练可以仅修改classes_path，classes_path用于指向检测类别所对应的txt。   
-训练自己的数据集时，可以自己建立一个cls_classes.txt，里面写自己所需要区分的类别。   
-model_data/cls_classes.txt文件内容为：      
+### b. Train your own dataset
+1. Data set preparation
+** This article uses VOCFormat training, need to make your own dataset before training,**
+Place label files before training. Annotation under `VOC2007` folder under `VOCdevkit` folder of your environment.
+Place picture files before trainingJPEG Images under VOC 2007 folder under VOC devkit folder of your environment.
+
+2. Data set processing
+After the data set has been placed, we need to use `voc_annotation.py` to get `2007_train.txt` and `2007_val.txt` for training.
+Modify the parameters in `voc_annotation.py`. The first training can only modify `classes_path`, which is used to point to the txtfile corresponding to the detection class.
+When you train your own dataset, you can create your own `cls_classes.txt`, and write down the categories you want to distinguish.
+The contents of the `model_data/cls_classes.txt` file are as follows:
 ```python
 cat
 dog
 ...
 ```
-修改voc_annotation.py中的classes_path，使其对应cls_classes.txt，并运行voc_annotation.py。  
 
-3. 开始网络训练  
-**训练的参数较多，均在train.py中，大家可以在下载库后仔细看注释，其中最重要的部分依然是train.py里的classes_path。**  
-**classes_path用于指向检测类别所对应的txt，这个txt和voc_annotation.py里面的txt一样！训练自己的数据集必须要修改！**  
-修改完classes_path后就可以运行train.py开始训练了，在训练多个epoch后，权值会生成在logs文件夹中。  
+Modify the `classes_path` in `voc_annotation.py` to correspond to `cls_classes.txt` and run `voc_annotation.py`.
 
-4. 训练结果预测  
-训练结果预测需要用到两个文件，分别是centernet.py和predict.py。在centernet.py里面修改model_path以及classes_path。  
-**model_path指向训练好的权值文件，在logs文件夹里。  
-classes_path指向检测类别所对应的txt。**  
-完成修改后就可以运行predict.py进行检测了。运行后输入图片路径即可检测。  
+3. Begin training network.  
+**Most of the training parameters are available at `train.py`. You can read the notes carefully after downloading the library. The most important part of the training is still `classes_path` in `train.py`.**  
+**`classes_path` is used to point to the txt file corresponding to the detection category, which is the same as the txt file in `voc_annotation.py`! Modify it to rain your own dataset**  
+After modifying the `classes_path`, you can run `train.py` to start training. After training multiple epochs, the weights will be generated in the `logs` folder  
 
-## 预测步骤
-### a、使用预训练权重
-1. 下载完库后解压，在百度网盘下载权值，放入model_data，运行predict.py，输入  
+4. training result prediction  
+Training results prediction needs to use two files, `predict.py` and `predict.py`. We first need to go to `centernet.py` to modify `model_path` and `classes_path`. Both parameters must be modified.
+
+**`model_path` points to the trained weight file in the Logs folder.
+`classes_path` points to the txt file corresponding to the detection class.**
+When the modificatoin is complete, you can run `predict.py` for prediction. It can be detected by entering the path of the picture after running.
+
+## Prediction Step
+### a.Using Pre-Training Weights
+1. Unzip the library after downloading, download the weight on the Baidu disk, put in model_data, run `predict.py`, enter
 ```python
 img/street.jpg
 ```
-2. 在predict.py里面进行设置可以进行fps测试和video视频检测。  
-### b、使用自己训练的权重
-1. 按照训练步骤训练。  
-2. 在centernet.py文件里面，在如下部分修改model_path和classes_path使其对应训练好的文件；**model_path对应logs文件夹下面的权值文件，classes_path是model_path对应分的类**。  
+2. You can set it up at `predict.py` to perform fps tests and video detection 
+### b. Use one's own training weights
+1. Follow the training procedures.  
+2. In the `centernet.py` file, modify `model_path` and `classes_path` to correspond to the trained file in the following section: **`model_path` corresponds to the weight file under the `Logs` folder. `classes_path` is the classes of `model_path` corresponding to the classes**.
 ```python
 _defaults = {
     #--------------------------------------------------------------------------#
-    #   使用自己训练好的模型进行预测一定要修改model_path和classes_path！
-    #   model_path指向logs文件夹下的权值文件，classes_path指向model_data下的txt
-    #   如果出现shape不匹配，同时要注意训练时的model_path和classes_path参数的修改
+    #  Make sure to modify `model_path` and `class_path` to make predictions using your own trained model!
+    #  `model_path` point to the weight file under the `logs` folder and `classes_path` point to txt fiel under model_data
+    #   If you experience a shape mismatch, pay attention to modification of `model_path` and `classes_path` parameters during training
     #--------------------------------------------------------------------------#
     "model_path"        : 'model_data/centernet_resnet50_voc.h5',
     "classes_path"      : 'model_data/voc_classes.txt',
     #--------------------------------------------------------------------------#
-    #   用于选择所使用的模型的主干
+    #   Used to select the backbone of the model to use
     #   resnet50, hourglass
     #--------------------------------------------------------------------------#
     "backbone"          : 'resnet50',
     #--------------------------------------------------------------------------#
-    #   输入图片的大小
+    #   Enter the size of the picture
     #--------------------------------------------------------------------------#
     "input_shape"       : [512, 512],
     #--------------------------------------------------------------------------#
-    #   只有得分大于置信度的预测框会被保留下来
+    #   Only the prediction box with a score greater than confidence will be retained.
     #--------------------------------------------------------------------------#
     "confidence"        : 0.3,
     #---------------------------------------------------------------------#
-    #   非极大抑制所用到的nms_iou大小
+    #   non-maximum suppression `nms_iou` size
     #---------------------------------------------------------------------#
     "nms_iou"           : 0.3,
     #--------------------------------------------------------------------------#
-    #   是否进行非极大抑制，可以根据检测效果自行选择
-    #   backbone为resnet50时建议设置为True、backbone为hourglass时建议设置为False
+    #   Non-maximum inhibition is optional based on the test results.
+    #  It is recommended to set `True` when the backbone is resnet50 and `False` when the backbone is hour class
     #--------------------------------------------------------------------------#
     "nms"               : True,
     #---------------------------------------------------------------------#
-    #   该变量用于控制是否使用letterbox_image对输入图像进行不失真的resize，
-    #   在多次测试后，发现关闭letterbox_image直接resize的效果更好
+    #   This variable is used to control whether the input image is resized without distortion using Letterbox_image.，
+    #   After several test find it more effective to turn off letterbox_image direct resize
     #---------------------------------------------------------------------#
     "letterbox_image"   : False,
 }
 ```
-3. 运行predict.py，输入  
+3. Run `predict.py` and enter  
 ```python
 img/street.jpg
 ```
-4. 在predict.py里面进行设置可以进行fps测试和video视频检测。  
+4. You can set it up at `predict.py` to perform fps tests and video detection.
 
-## 评估步骤 
-### a、评估VOC07+12的测试集
-1. 本文使用VOC格式进行评估。VOC07+12已经划分好了测试集，无需利用voc_annotation.py生成ImageSets文件夹下的txt。
-2. 在centernet.py里面修改model_path以及classes_path。**model_path指向训练好的权值文件，在logs文件夹里。classes_path指向检测类别所对应的txt。**  
-3. 运行get_map.py即可获得评估结果，评估结果会保存在map_out文件夹中。
+## Assessment Steps 
 
-### b、评估自己的数据集
-1. 本文使用VOC格式进行评估。  
-2. 如果在训练前已经运行过voc_annotation.py文件，代码会自动将数据集划分成训练集、验证集和测试集。如果想要修改测试集的比例，可以修改voc_annotation.py文件下的trainval_percent。trainval_percent用于指定(训练集+验证集)与测试集的比例，默认情况下 (训练集+验证集):测试集 = 9:1。train_percent用于指定(训练集+验证集)中训练集与验证集的比例，默认情况下 训练集:验证集 = 9:1。
-3. 利用voc_annotation.py划分测试集后，前往get_map.py文件修改classes_path，classes_path用于指向检测类别所对应的txt，这个txt和训练时的txt一样。评估自己的数据集必须要修改。
-4. 在centernet.py里面修改model_path以及classes_path。**model_path指向训练好的权值文件，在logs文件夹里。classes_path指向检测类别所对应的txt。**  
-5. 运行get_map.py即可获得评估结果，评估结果会保存在map_out文件夹中。
+### a. Assessment of VOC07+12 Test Set
+1. This paper uses the VOC format for evaluation. VOC07+12 has divided the test sets and does not need to use `voc_annotation.py` to generate txts under the `ImageSet` folder.
+2. Modify `model_path` and `classes_path` in `centernet.py`. **`model_path` points to the trained weight file in the Logs folder. `classes_path` points to a pair of detection classes pairtxt. **
+3. Run `get_map.py` for evaluation. As a result, the evaluation results are saved in the `map_out` folder.
+
+### b、Evaluate your own dataset
+1. This article uses VOC format for evaluation.  
+2. If the `voc_annotation.py` file has been run before training, the code will automatically divide the dataset into training sets, verification sets, and test sets. If you want to modify the ratio of the test set, you can modify the `trainval_percent` under the `voc_annotation.py` file. `trainval_percent` is used to specify the ratio (training set + validation set) to the test set. By default (training set + validation set): Test set = 9:1. 
+3. After you divide the test set using `voc_annotation.py`, go to the `get_map.py` file and modify the `classes_path`, which is used to point to the txt file corresponding to the detection category, which is the same as the txt file in training. The dataset that evaluates itself must be modified.
+4. Modify `model_path` and `classes_path` in `centernet.py`. **`model_path` points to the trained weight file in the Logs folder. `classes_path` points to the txt file corresponding to the detection class.**
+5. Run `get_map.py` to get your evaluation results, which will be saved in the `map_out` folder
 
 ## Reference
 https://github.com/xuannianz/keras-CenterNet      
