@@ -4,12 +4,12 @@
 ## Table of Contents
 1. [Update Top News ]
 2. [Performance](#Performance)
-3. [Required Environment](#Required Environment)
-4. [Notes on Attention](#Notes on Attention)
+3. [Required Environment](#Required-Environment)
+4. [Notes on Attention](#Notes-on-Attention)
 5. [Download](#Download)
-6. [Training Steps  : How2train](#Training Steps)
-7. [Prediction Step : How2predict](#Prediction Step)
-8. [Assessment Step : How2val](#Assessment Step)
+6. [Training Steps  : How2train](#Training-Steps)
+7. [Prediction Step : How2predict](#Prediction-Step)
+8. [Assessment Step : How2val](#Assessment-Step)
 9. [Reference](#Reference)
 
 ## Top News
