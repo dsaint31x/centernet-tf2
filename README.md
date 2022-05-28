@@ -1,17 +1,6 @@
 ## CenterNet:Object as Points, Implementation of CenterNet Object Detection Model in Tensorflow2
 ---
 
-## 目录
-1. [仓库更新 Top News](#仓库更新)
-2. [性能情况 Performance](#性能情况)
-3. [所需环境 Environment](#所需环境)
-4. [注意事项 Attention](#注意事项)
-5. [文件下载 Download](#文件下载)
-6. [训练步骤 How2train](#训练步骤)
-7. [预测步骤 How2predict](#预测步骤)
-8. [评估步骤 How2eval](#评估步骤)
-9. [参考资料 Reference](#Reference)
-
 ## Table of Contents
 1. [Update Top News ]
 2. [Performance] (#Performance)
