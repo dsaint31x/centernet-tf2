@@ -29,8 +29,9 @@ class CenterNet(object):
         #   验证集损失较低不代表mAP较高，仅代表该权值在验证集上泛化性能较好。
         #   如果出现shape不匹配，同时要注意训练时的model_path和classes_path参数的修改
         #--------------------------------------------------------------------------#
-        "model_path"        : 'model_data/centernet_resnet50_voc.h5',
-        "classes_path"      : 'model_data/voc_classes.txt',
+        # "model_path"        : 'model_data/centernet_resnet50_ceph_voc.h5',
+        "model_path"        : 'logs/best_epoch_weights.h5', # dsaint31
+        "classes_path"      : 'model_data/ceph_voc_classes.txt',
         #--------------------------------------------------------------------------#
         #   输入图片的大小
         #--------------------------------------------------------------------------#
@@ -191,10 +192,20 @@ class CenterNet(object):
         #---------------------------------------------------------#
         #   图像绘制
         #---------------------------------------------------------#
+
+        check_top_score = {} #dsaint31
         for i, c in list(enumerate(top_label)):
             predicted_class = self.class_names[int(c)]
             box             = top_boxes[i]
             score           = top_conf[i]
+
+            # dsaint31 -----------------------------
+            fsocre = float(score)
+            if fscore <= check_top_score.get(predicted_class,0.):
+                continue
+            check_top_score[predicted_class] = fscore
+            # end ---------------------------------
+
 
             top, left, bottom, right = box
 
@@ -347,10 +358,18 @@ class CenterNet(object):
         top_conf    = results[0][:, 4]
         top_boxes   = results[0][:, :4]
 
+        check_top_score = {} #dsaint31
         for i, c in list(enumerate(top_label)):
             predicted_class = self.class_names[int(c)]
             box             = top_boxes[i]
             score           = str(top_conf[i])
+            
+            # dsaint31 -----------------
+            fscore = float(score)
+            if fscore <= check_top_score.get(predicted_class,0.):
+                continue
+            check_top_score[predicted_class] = fscore
+            # end -----------------------
             
             top, left, bottom, right = box
 

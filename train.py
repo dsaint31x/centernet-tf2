@@ -48,7 +48,8 @@ if __name__ == "__main__":
     #   classes_path    指向model_data下的txt，与自己训练的数据集相关 
     #                   训练前一定要修改classes_path，使其对应自己的数据集
     #---------------------------------------------------------------------#
-    classes_path    = 'model_data/voc_classes.txt'
+    # classes_path    = 'model_data/voc_classes.txt' 
+    classes_path    = 'model_data/ceph_voc_classes.txt' # dsaint31
     #----------------------------------------------------------------------------------------------------------------------------#
     #   权值文件的下载请看README，可以通过网盘下载。模型的 预训练权重 对不同数据集是通用的，因为特征是通用的。
     #   模型的 预训练权重 比较重要的部分是 主干特征提取网络的权值部分，用于进行特征提取。
@@ -66,7 +67,9 @@ if __name__ == "__main__":
     #   一般来讲，网络从0开始的训练效果会很差，因为权值太过随机，特征提取效果不明显，因此非常、非常、非常不建议大家从0开始训练！
     #   如果一定要从0开始，可以了解imagenet数据集，首先训练分类模型，获得网络的主干部分权值，分类模型的 主干部分 和该模型通用，基于此进行训练。
     #----------------------------------------------------------------------------------------------------------------------------#
-    model_path      = 'model_data/centernet_resnet50_voc.h5'
+    # model_path      = 'model_data/centernet_resnet50_voc.h5'
+    model_path      = 'model_data/centernet_resnet50_ceph_voc.h5' #dsaint31
+    model_path      = 'logs/best_epoch_weights.h5' #dsaint31
     #---------------------------------------------------------------------#
     #   input_shape     输入的shape大小，32的倍数
     #---------------------------------------------------------------------#
@@ -120,7 +123,7 @@ if __name__ == "__main__":
     #------------------------------------------------------------------#
     Init_Epoch          = 0
     Freeze_Epoch        = 50
-    Freeze_batch_size   = 16
+    Freeze_batch_size   = 2 #16 #dsaint31
     #------------------------------------------------------------------#
     #   解冻阶段训练参数
     #   此时模型的主干不被冻结了，特征提取网络会发生改变
@@ -131,7 +134,7 @@ if __name__ == "__main__":
     #   Unfreeze_batch_size     模型在解冻后的batch_size
     #------------------------------------------------------------------#
     UnFreeze_Epoch      = 100
-    Unfreeze_batch_size = 8
+    Unfreeze_batch_size = 2 #8 #dsaint31
     #------------------------------------------------------------------#
     #   Freeze_Train    是否进行冻结训练
     #                   默认先冻结主干训练后解冻训练。
@@ -201,7 +204,8 @@ if __name__ == "__main__":
     os.environ["CUDA_VISIBLE_DEVICES"]  = ','.join(str(x) for x in train_gpu)
     ngpus_per_node                      = len(train_gpu)
     
-    gpus = tf.config.experimental.list_physical_devices(device_type='GPU')
+    #gpus = tf.config.experimental.list_physical_devices(device_type='GPU')
+    gpus = tf.config.list_physical_devices(device_type='GPU') # dsaint31
     for gpu in gpus:
         tf.config.experimental.set_memory_growth(gpu, True)
     

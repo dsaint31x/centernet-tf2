@@ -9,9 +9,13 @@ from centernet import CenterNet
 from utils.utils import get_classes
 from utils.utils_map import get_coco_map, get_map
 
-gpus = tf.config.experimental.list_physical_devices(device_type='GPU')
-for gpu in gpus:
-    tf.config.experimental.set_memory_growth(gpu, True)
+# dsaint31 ---------------------------------------------------
+import os
+# gpus = tf.config.experimental.list_physical_devices(device_type='GPU')
+# for gpu in gpus:
+#     tf.config.experimental.set_memory_growth(gpu, True)
+os.environ['CUDA_VISIBLE_DEVICES']='-1'
+# end --------------------------------------------------------
 
 if __name__ == "__main__":
     '''
@@ -34,7 +38,7 @@ if __name__ == "__main__":
     #   此处的classes_path用于指定需要测量VOC_map的类别
     #   一般情况下与训练和预测所用的classes_path一致即可
     #--------------------------------------------------------------------------------------#
-    classes_path    = 'model_data/voc_classes.txt'
+    classes_path    = 'model_data/ceph_voc_classes.txt' #dsaint31
     #--------------------------------------------------------------------------------------#
     #   MINOVERLAP用于指定想要获得的mAP0.x，mAP0.x的意义是什么请同学们百度一下。
     #   比如计算mAP0.75，可以设定MINOVERLAP = 0.75。
@@ -68,18 +72,18 @@ if __name__ == "__main__":
     #-------------------------------------------------------#
     #   map_vis用于指定是否开启VOC_map计算的可视化
     #-------------------------------------------------------#
-    map_vis         = False
+    map_vis         = True #dsaint31
     #-------------------------------------------------------#
     #   指向VOC数据集所在的文件夹
     #   默认指向根目录下的VOC数据集
     #-------------------------------------------------------#
-    VOCdevkit_path  = 'VOCdevkit'
+    VOCdevkit_path  = '../VOCdevkit' # dsaint31
     #-------------------------------------------------------#
     #   结果输出的文件夹，默认为map_out
     #-------------------------------------------------------#
     map_out_path    = 'map_out'
 
-    image_ids = open(os.path.join(VOCdevkit_path, "VOC2007/ImageSets/Main/test.txt")).read().strip().split()
+    image_ids = open(os.path.join(VOCdevkit_path, "ceph_VOC2007/ImageSets/Main/test.txt")).read().strip().split() # dsaint31 add ceph
 
     if not os.path.exists(map_out_path):
         os.makedirs(map_out_path)
@@ -99,7 +103,7 @@ if __name__ == "__main__":
 
         print("Get predict result.")
         for image_id in tqdm(image_ids):
-            image_path  = os.path.join(VOCdevkit_path, "VOC2007/JPEGImages/"+image_id+".jpg")
+            image_path  = os.path.join(VOCdevkit_path, "ceph_VOC2007/JPEGImages/"+image_id+".jpg") # dsaint31 add ceph
             image       = Image.open(image_path)
             if map_vis:
                 image.save(os.path.join(map_out_path, "images-optional/" + image_id + ".jpg"))
@@ -110,7 +114,7 @@ if __name__ == "__main__":
         print("Get ground truth result.")
         for image_id in tqdm(image_ids):
             with open(os.path.join(map_out_path, "ground-truth/"+image_id+".txt"), "w") as new_f:
-                root = ET.parse(os.path.join(VOCdevkit_path, "VOC2007/Annotations/"+image_id+".xml")).getroot()
+                root = ET.parse(os.path.join(VOCdevkit_path, "ceph_VOC2007/Annotations/"+image_id+".xml")).getroot() # dsaint31 add ceph
                 for obj in root.findall('object'):
                     difficult_flag = False
                     if obj.find('difficult')!=None:
