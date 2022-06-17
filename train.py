@@ -18,20 +18,32 @@ from utils.utils_fit import fit_one_epoch
 os.environ['TF_CPP_MIN_LOG_LEVEL'] = '2'
 
 '''
-训练自己的目标检测模型一定需要注意以下几点：
-1、训练前仔细检查自己的格式是否满足要求，该库要求数据集格式为VOC格式，需要准备好的内容有输入图片和标签
-   输入图片为.jpg图片，无需固定大小，传入训练前会自动进行resize。
-   灰度图会自动转成RGB图片进行训练，无需自己修改。
-   输入图片如果后缀非jpg，需要自己批量转成jpg后再开始训练。
-
-   标签为.xml格式，文件中会有需要检测的目标信息，标签文件和输入图片文件相对应。
-
-2、损失值的大小用于判断是否收敛，比较重要的是有收敛的趋势，即验证集损失不断下降，如果验证集损失基本上不改变的话，模型基本上就收敛了。
-   损失值的具体大小并没有什么意义，大和小只在于损失的计算方式，并不是接近于0才好。如果想要让损失好看点，可以直接到对应的损失函数里面除上10000。
-   训练过程中的损失值会保存在logs文件夹下的loss_%Y_%m_%d_%H_%M_%S文件夹中
+When training your own target detection model, you must pay attention to the following points:
+1. Before training, carefully check whether your format meets the requirements. 
+   The library requires the data set format to be VOC format, and 
+   the content to be prepared includes input pictures and labels
+   The input image is a .jpg image, no fixed size is required, and 
+   it will be automatically resized before being passed into training.
+   Grayscale images will be automatically converted to RGB images for training, 
+   no need to modify them yourself.
+   If the suffix of the input image is not jpg, you need to convert it into jpg in batches before starting training.
+   The tag is in .xml format, and the file contains target information to be detected. 
+   The tag file corresponds to the input image file.
    
-3、训练好的权值文件保存在logs文件夹中，每个训练世代（Epoch）包含若干训练步长（Step），每个训练步长（Step）进行一次梯度下降。
-   如果只是训练了几个Step是不会保存的，Epoch和Step的概念要捋清楚一下。
+2. The size of the loss value is used to judge whether or not to converge. 
+   The more important thing is that there is a trend of convergence, that is, 
+   the loss of the validation set continues to decrease. 
+   If the loss of the validation set basically does not change, the model basically converges.
+   The specific size of the loss value does not make much sense. T
+   he big and small only depend on the calculation method of the loss, and it is not good to be close to 0. 
+   If you want to make the loss look better, you can directly divide 10000 into the corresponding loss function.
+   The loss value during training will be saved in the loss_%Y_%m_%d_%H_%M_%S folder under the logs folder
+   
+3. The trained weight file is saved in the logs folder. 
+   Each training generation (Epoch) contains several training steps (Step), and 
+   each training step (Step) performs a gradient descent.
+   If you only train a few Steps, it will not be saved. 
+   The concepts of Epoch and Step should be clarified.   
 '''
 if __name__ == "__main__":
     #----------------------------------------------------#
