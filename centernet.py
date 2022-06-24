@@ -200,7 +200,7 @@ class CenterNet(object):
             score           = top_conf[i]
 
             # dsaint31 -----------------------------
-            fsocre = float(score)
+            fscore = float(score)
             if fscore <= check_top_score.get(predicted_class,0.):
                 continue
             check_top_score[predicted_class] = fscore
