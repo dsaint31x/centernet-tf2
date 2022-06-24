@@ -3,6 +3,7 @@ import os
 import time
 
 import numpy as np
+import pandas as pd # celes
 import tensorflow as tf
 from PIL import ImageDraw, ImageFont
 
@@ -10,6 +11,10 @@ from nets.centernet import centernet
 from utils.utils import (cvtColor, get_classes, preprocess_input, resize_image,
                          show_config)
 from utils.utils_bbox import BBoxUtility
+
+
+point_array = [] # celes
+
 
 
 #--------------------------------------------#
@@ -30,8 +35,7 @@ class CenterNet(object):
         #   如果出现shape不匹配，同时要注意训练时的model_path和classes_path参数的修改
         #--------------------------------------------------------------------------#
         # "model_path"        : 'model_data/centernet_resnet50_ceph_voc.h5',
-        #"model_path"        : 'logs/best_epoch_weights.h5', # dsaint31
-        "model_path"        : 'logs/u-net.h5', # celes
+        "model_path"        : 'logs/best_epoch_weights.h5', # dsaint31
         "classes_path"      : 'model_data/ceph_voc_classes.txt',
         #--------------------------------------------------------------------------#
         #   输入图片的大小
@@ -193,7 +197,7 @@ class CenterNet(object):
         #---------------------------------------------------------#
         #   图像绘制
         #---------------------------------------------------------#
-
+        
         check_top_score = {} #dsaint31
         for i, c in list(enumerate(top_label)):
             predicted_class = self.class_names[int(c)]
@@ -219,7 +223,10 @@ class CenterNet(object):
             draw = ImageDraw.Draw(image)
             label_size = draw.textsize(label, font)
             label = label.encode('utf-8')
+
+            ##################
             print(label, top, left, bottom, right)
+            point_array.append([i, c, (top+bottom)/2, (left+right)/2]) # celes
             
             if top - label_size[1] >= 0:
                 text_origin = np.array([left, top - label_size[1]])
@@ -231,6 +238,12 @@ class CenterNet(object):
             draw.rectangle([tuple(text_origin), tuple(text_origin + label_size)], fill=self.colors[c])
             draw.text(text_origin, str(label,'UTF-8'), fill=(0, 0, 0), font=font)
             del draw
+
+        
+        # celes -----------------------
+        array = pd.DataFrame(point_array)
+        array.to_csv('./csv/out.csv', index=False)
+        # -----------------------------
 
         return image
 
