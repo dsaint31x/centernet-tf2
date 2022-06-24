@@ -30,7 +30,8 @@ class CenterNet(object):
         #   如果出现shape不匹配，同时要注意训练时的model_path和classes_path参数的修改
         #--------------------------------------------------------------------------#
         # "model_path"        : 'model_data/centernet_resnet50_ceph_voc.h5',
-        "model_path"        : 'logs/best_epoch_weights.h5', # dsaint31
+        #"model_path"        : 'logs/best_epoch_weights.h5', # dsaint31
+        "model_path"        : 'logs/u-net.h5', # celes
         "classes_path"      : 'model_data/ceph_voc_classes.txt',
         #--------------------------------------------------------------------------#
         #   输入图片的大小
