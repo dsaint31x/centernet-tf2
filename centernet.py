@@ -226,7 +226,7 @@ class CenterNet(object):
 
             ##################
             print(label, top, left, bottom, right)
-            point_array.append([i, c, (top+bottom)/2, (left+right)/2]) # celes
+            point_array.append([label, (top+bottom)/2, (left+right)/2]) # celes
             
             if top - label_size[1] >= 0:
                 text_origin = np.array([left, top - label_size[1]])
