@@ -1,0 +1,2301 @@
+predicted class,x,y
+Nasion,416.5,161
+Sella,297.5,172.5
+Porion,253.5,213.5
+Orbitale,397.5,217.5
+Pterygoid,326,209.5
+Basion,249.5,257
+ANS,421.5,269.5
+PNS,325.5,265
+A point,409.5,281.5
+B point,397.5,369
+Protuberance menti,397,385
+Pogonion,397,393
+Menton,385.5,409.5
+Go-1 Corpuus left,289,341
+Go-2 Ramus down,273,261
+Articulare,269,237
+R3,301.5,250
+R1,325.5,289
+Maxilla 1 crown,417,329.5
+Maxilla 1 root,402,285.5
+Mandible 1 crown,410,325
+Mandible 1 root,394,361.5
+Maxilla 6 distal,349.5,309.5
+Maxilla 6 root,361,277.5
+Mandible 6 distal,349,317
+Mandible 6 root,341.5,345
+Glabella,429.5,137.5
+Soft tissue naison,425.5,177
+Dorsum of nose,454,237.5
+pronasale,461.5,257.5
+Colunella,453,273
+Subnasalle,437.5,278
+Soft tissue A point,433,285
+Labrale superius,437.5,305.5
+Upper lip,440,313.5
+Stms,429.5,325.5
+Upper embrasure,417.5,325.5
+Lower embrasure,417,329.5
+Stmi,425,329
+Lower lip,433,341.5
+Labial Inferius,429,349
+Soft tissue b point,421,365
+Soft tissue pogonion,417,393.5
+Soft tissue Gnathion,409,413.5
+Soft tissue Menton,385.5,421.5
+Cervical point,321,421
+Nasion,425.5,157.5
+Sella,293.5,189
+Porion,245.5,225
+Orbitale,406,217
+Pterygoid,329,217
+Basion,237.5,269
+ANS,437.5,269.5
+PNS,329.5,273.5
+A point,425.5,285
+B point,401.5,369.5
+Protuberance menti,402,385.5
+Pogonion,401,393.5
+Menton,389.5,409.5
+Go-1 Corpuus left,289,349.5
+Go-2 Ramus down,268.5,269.5
+Articulare,261.5,249
+R3,302,261
+R1,329,297
+Maxilla 1 crown,433,336.5
+Maxilla 1 root,418,289.5
+Mandible 1 crown,421.5,330
+Mandible 1 root,401.5,361.5
+Maxilla 6 distal,353,313.5
+Maxilla 6 root,369,285
+Mandible 6 distal,353,320.5
+Mandible 6 root,345.5,349
+Glabella,441,137
+Soft tissue naison,437,174
+Dorsum of nose,469.5,229.5
+pronasale,478,254
+Colunella,468.5,273.5
+Subnasalle,453,281.5
+Soft tissue A point,453.5,289
+Labrale superius,457,309.5
+Upper lip,457,321.5
+Stms,449,332.5
+Upper embrasure,433.5,330
+Lower embrasure,429.5,333.5
+Stmi,441,333.5
+Lower lip,449,349.5
+Labial Inferius,445,357
+Soft tissue b point,429.5,369
+Soft tissue pogonion,428.5,393.5
+Soft tissue Gnathion,417,413
+Soft tissue Menton,389.5,421
+Cervical point,329,429.5
+Nasion,418,178
+Sella,292.5,201
+Porion,258,233
+Orbitale,401.5,229.5
+Pterygoid,329,230
+Basion,253.5,269
+ANS,425,281.5
+PNS,332.5,281
+A point,417,293
+B point,417.5,369.5
+Protuberance menti,425,385
+Pogonion,425.5,393.5
+Menton,413.5,409.5
+Go-1 Corpuus left,301.5,357.5
+Go-2 Ramus down,276.5,276.5
+Articulare,269,253.5
+R3,309,272.5
+R1,337.5,308.5
+Maxilla 1 crown,429.5,337
+Maxilla 1 root,409.5,297
+Mandible 1 crown,426,333
+Mandible 1 root,414,365.5
+Maxilla 6 distal,361,321.5
+Maxilla 6 root,369,293.5
+Mandible 6 distal,361.5,329
+Mandible 6 root,361,357
+Glabella,433.5,157
+Soft tissue naison,429.5,194
+Dorsum of nose,453.5,249.5
+pronasale,461.5,266
+Colunella,453.5,281.5
+Subnasalle,441,289
+Soft tissue A point,437.5,293
+Labrale superius,445.5,309.5
+Upper lip,453,317.5
+Stms,441.5,329.5
+Upper embrasure,429.5,330
+Lower embrasure,429.5,337
+Stmi,441.5,333
+Lower lip,453,345
+Labial Inferius,449,353
+Soft tissue b point,445,369.5
+Soft tissue pogonion,449,397.5
+Soft tissue Gnathion,437,417
+Soft tissue Menton,413,425
+Cervical point,341.5,429.5
+Nasion,425.5,157
+Sella,293.5,168.5
+Porion,249,213
+Orbitale,405.5,217
+Pterygoid,329.5,205
+Basion,245.5,253.5
+ANS,429.5,273
+PNS,333,269
+A point,421,285.5
+B point,413,373.5
+Protuberance menti,413.5,389.5
+Pogonion,413,401
+Menton,401.5,417.5
+Go-1 Corpuus left,289.5,345.5
+Go-2 Ramus down,273,260.5
+Articulare,265,237.5
+R3,306,253
+R1,333.5,293
+Maxilla 1 crown,433.5,337
+Maxilla 1 root,413.5,289
+Mandible 1 crown,425.5,333
+Mandible 1 root,410,369.5
+Maxilla 6 distal,361,314
+Maxilla 6 root,369,281.5
+Mandible 6 distal,360.5,320.5
+Mandible 6 root,353,349
+Glabella,444.5,134
+Soft tissue naison,437,177.5
+Dorsum of nose,466,233.5
+pronasale,477,257.5
+Colunella,469,273
+Subnasalle,449,281.5
+Soft tissue A point,445,288.5
+Labrale superius,453.5,305.5
+Upper lip,457,317.5
+Stms,449,329
+Upper embrasure,433.5,330
+Lower embrasure,429.5,333
+Stmi,445.5,329.5
+Lower lip,453.5,345
+Labial Inferius,449,353
+Soft tissue b point,441.5,369.5
+Soft tissue pogonion,441,397.5
+Soft tissue Gnathion,425,421
+Soft tissue Menton,401.5,429
+Cervical point,329,417.5
+Nasion,416.5,157
+Sella,290,184.5
+Porion,253.5,225
+Orbitale,404,213
+Pterygoid,329.5,216.5
+Basion,253.5,269
+ANS,433.5,266
+PNS,337,273
+A point,425.5,281
+B point,413,361
+Protuberance menti,413.5,377.5
+Pogonion,413.5,389.5
+Menton,401.5,405.5
+Go-1 Corpuus left,297,357
+Go-2 Ramus down,277,273
+Articulare,269,249.5
+R3,308.5,264.5
+R1,341.5,301
+Maxilla 1 crown,437,329
+Maxilla 1 root,417.5,285
+Mandible 1 crown,430,325.5
+Mandible 1 root,410,357.5
+Maxilla 6 distal,369,309.5
+Maxilla 6 root,376.5,282
+Mandible 6 distal,369,317
+Mandible 6 root,361,349
+Glabella,429,133.5
+Soft tissue naison,425,174
+Dorsum of nose,457.5,229.5
+pronasale,468.5,250
+Colunella,460.5,269
+Subnasalle,445,273.5
+Soft tissue A point,445,281
+Labrale superius,453,301.5
+Upper lip,457,313.5
+Stms,449,325.5
+Upper embrasure,437.5,325.5
+Lower embrasure,433,329
+Stmi,445,329
+Lower lip,452.5,341
+Labial Inferius,448.5,353
+Soft tissue b point,437,365
+Soft tissue pogonion,433,389
+Soft tissue Gnathion,425,409.5
+Soft tissue Menton,405,417
+Cervical point,353,429.5
+Nasion,424.5,157
+Sella,293.5,184.5
+Porion,249.5,225.5
+Orbitale,409,213.5
+Pterygoid,330,213.5
+Basion,249,265.5
+ANS,437.5,261
+PNS,337,269
+A point,429,273
+B point,425,353
+Protuberance menti,425.5,365
+Pogonion,425,377
+Menton,414,389.5
+Go-1 Corpuus left,301.5,349.5
+Go-2 Ramus down,273,273
+Articulare,265,249.5
+R3,305,261
+R1,337,289
+Maxilla 1 crown,445,316.5
+Maxilla 1 root,421.5,277.5
+Mandible 1 crown,437.5,313.5
+Mandible 1 root,421.5,345.5
+Maxilla 6 distal,357,301.5
+Maxilla 6 root,369.5,273.5
+Mandible 6 distal,361,312.5
+Mandible 6 root,357,345
+Glabella,436.5,133.5
+Soft tissue naison,433.5,173
+Dorsum of nose,466,221.5
+pronasale,474,245.5
+Colunella,469,261.5
+Subnasalle,453,265.5
+Soft tissue A point,453.5,273
+Labrale superius,465,289.5
+Upper lip,468.5,301
+Stms,457,313
+Upper embrasure,445.5,310
+Lower embrasure,441,317
+Stmi,453,313
+Lower lip,461,329
+Labial Inferius,457,337
+Soft tissue b point,449,349.5
+Soft tissue pogonion,448.5,373.5
+Soft tissue Gnathion,437,393
+Soft tissue Menton,417.5,401
+Cervical point,357,409
+Nasion,429,161.5
+Sella,293,188.5
+Porion,253.5,225.5
+Orbitale,413.5,217.5
+Pterygoid,329.5,217.5
+Basion,249,273
+ANS,441.5,273.5
+PNS,337,273.5
+A point,433.5,285.5
+B point,417,365
+Protuberance menti,413.5,381
+Pogonion,413,389
+Menton,402,401.5
+Go-1 Corpuus left,293,353
+Go-2 Ramus down,273,273
+Articulare,268.5,249
+R3,305.5,261.5
+R1,337,301.5
+Maxilla 1 crown,441,337
+Maxilla 1 root,429.5,289
+Mandible 1 crown,434,333
+Mandible 1 root,413.5,361.5
+Maxilla 6 distal,365.5,313.5
+Maxilla 6 root,381,285.5
+Mandible 6 distal,365.5,321
+Mandible 6 root,358,349
+Glabella,441,141
+Soft tissue naison,437.5,181
+Dorsum of nose,470,237.5
+pronasale,477.5,257.5
+Colunella,472.5,273
+Subnasalle,457,281
+Soft tissue A point,457.5,285
+Labrale superius,465,309.5
+Upper lip,468.5,317
+Stms,457,332.5
+Upper embrasure,445,330
+Lower embrasure,441,333
+Stmi,453,333
+Lower lip,457.5,345
+Labial Inferius,453,353
+Soft tissue b point,441,365
+Soft tissue pogonion,437,389
+Soft tissue Gnathion,425.5,405
+Soft tissue Menton,402,416.5
+Cervical point,341,417
+Nasion,429.5,173
+Sella,305,185
+Porion,253.5,217.5
+Orbitale,409,225
+Pterygoid,333.5,218
+Basion,245.5,257
+ANS,433.5,273.5
+PNS,333,269.5
+A point,425.5,285
+B point,397,365
+Protuberance menti,389.5,381
+Pogonion,389.5,389.5
+Menton,374,402
+Go-1 Corpuus left,281,337
+Go-2 Ramus down,268.5,261
+Articulare,264.5,241
+R3,305.5,260.5
+R1,329.5,293
+Maxilla 1 crown,429,336.5
+Maxilla 1 root,417.5,289
+Mandible 1 crown,422,329.5
+Mandible 1 root,394,357.5
+Maxilla 6 distal,357.5,305.5
+Maxilla 6 root,373,281
+Mandible 6 distal,357,313
+Mandible 6 root,345,341
+Glabella,445,153
+Soft tissue naison,437,189.5
+Dorsum of nose,464.5,241.5
+pronasale,469.5,257.5
+Colunella,464.5,273
+Subnasalle,449.5,281.5
+Soft tissue A point,449.5,285
+Labrale superius,453.5,309.5
+Upper lip,456.5,317.5
+Stms,445.5,329.5
+Upper embrasure,433.5,330
+Lower embrasure,429,333
+Stmi,441.5,333
+Lower lip,444.5,345
+Labial Inferius,441,356.5
+Soft tissue b point,425,365
+Soft tissue pogonion,417,385.5
+Soft tissue Gnathion,401,405
+Soft tissue Menton,377.5,417
+Cervical point,325,420.5
+Nasion,433,168.5
+Sella,293,185
+Porion,250,224.5
+Orbitale,413.5,224.5
+Pterygoid,329.5,217.5
+Basion,249.5,269
+ANS,441,273.5
+PNS,333.5,277.5
+A point,433.5,289
+B point,425.5,369
+Protuberance menti,429.5,385.5
+Pogonion,429,393.5
+Menton,417.5,410
+Go-1 Corpuus left,293,369
+Go-2 Ramus down,273,277
+Articulare,265,253.5
+R3,306,268.5
+R1,337,305.5
+Maxilla 1 crown,449,333
+Maxilla 1 root,425.5,293
+Mandible 1 crown,442,329.5
+Mandible 1 root,421.5,361.5
+Maxilla 6 distal,365.5,317.5
+Maxilla 6 root,377,289.5
+Mandible 6 distal,369,325.5
+Mandible 6 root,365.5,357.5
+Glabella,453,145.5
+Soft tissue naison,441.5,185
+Dorsum of nose,473.5,241.5
+pronasale,481,261.5
+Colunella,473,277.5
+Subnasalle,461,282
+Soft tissue A point,457,288.5
+Labrale superius,465.5,309.5
+Upper lip,469,317.5
+Stms,461,329
+Upper embrasure,449.5,326
+Lower embrasure,445,332.5
+Stmi,457,329.5
+Lower lip,465,341
+Labial Inferius,461,349
+Soft tissue b point,453,365.5
+Soft tissue pogonion,453,393
+Soft tissue Gnathion,445,417
+Soft tissue Menton,417.5,425
+Cervical point,345,437.5
+Nasion,433,173
+Sella,305.5,177
+Porion,257.5,213.5
+Orbitale,414,225
+Pterygoid,341.5,217.5
+Basion,253.5,253.5
+ANS,441,277.5
+PNS,337.5,269.5
+A point,429,289
+B point,405,365.5
+Protuberance menti,401.5,381.5
+Pogonion,401,389.5
+Menton,386,405
+Go-1 Corpuus left,285,345.5
+Go-2 Ramus down,273,261
+Articulare,269,241.5
+R3,309,257.5
+R1,337,293
+Maxilla 1 crown,437,336.5
+Maxilla 1 root,421.5,293
+Mandible 1 crown,430,333.5
+Mandible 1 root,401.5,361.5
+Maxilla 6 distal,361,309.5
+Maxilla 6 root,377,282
+Mandible 6 distal,361,317
+Mandible 6 root,349.5,345
+Glabella,449.5,149
+Soft tissue naison,441.5,189
+Dorsum of nose,473.5,241.5
+pronasale,477.5,261.5
+Colunella,472.5,277.5
+Subnasalle,457,285.5
+Soft tissue A point,453.5,289
+Labrale superius,461.5,309
+Upper lip,461,322
+Stms,453,332.5
+Upper embrasure,437.5,329.5
+Lower embrasure,433,337
+Stmi,449.5,333
+Lower lip,453,344.5
+Labial Inferius,449,353
+Soft tissue b point,433,365
+Soft tissue pogonion,425,389
+Soft tissue Gnathion,409,409
+Soft tissue Menton,389.5,421
+Cervical point,329,421
+Nasion,424.5,164.5
+Sella,298,177
+Porion,257.5,217.5
+Orbitale,410,221.5
+Pterygoid,329.5,213.5
+Basion,253.5,261
+ANS,433,273.5
+PNS,333,273.5
+A point,421.5,289
+B point,405,369
+Protuberance menti,401.5,385
+Pogonion,401.5,393.5
+Menton,390,409.5
+Go-1 Corpuus left,293.5,360.5
+Go-2 Ramus down,273,269
+Articulare,269.5,245.5
+R3,308.5,261
+R1,333.5,301.5
+Maxilla 1 crown,429.5,337
+Maxilla 1 root,417.5,293
+Mandible 1 crown,425.5,333.5
+Mandible 1 root,402,361.5
+Maxilla 6 distal,361,317.5
+Maxilla 6 root,369,289
+Mandible 6 distal,361,325
+Mandible 6 root,353.5,353.5
+Glabella,437.5,141.5
+Soft tissue naison,433.5,182
+Dorsum of nose,461,241.5
+pronasale,468.5,261.5
+Colunella,461,277.5
+Subnasalle,445,285.5
+Soft tissue A point,445.5,289
+Labrale superius,449.5,313.5
+Upper lip,453,325.5
+Stms,444.5,336.5
+Upper embrasure,433.5,334
+Lower embrasure,429.5,337
+Stmi,441,336.5
+Lower lip,445,349
+Labial Inferius,440.5,356.5
+Soft tissue b point,429,369.5
+Soft tissue pogonion,425,393
+Soft tissue Gnathion,413,413
+Soft tissue Menton,393,425
+Cervical point,349,441
+Nasion,420.5,165.5
+Sella,294,177
+Porion,249.5,217
+Orbitale,405,222
+Pterygoid,325.5,213.5
+Basion,245.5,260.5
+ANS,425.5,277
+PNS,325,273
+A point,417.5,289
+B point,393.5,377.5
+Protuberance menti,389.5,389.5
+Pogonion,389,401
+Menton,374,413.5
+Go-1 Corpuus left,281.5,357.5
+Go-2 Ramus down,268.5,268.5
+Articulare,261,245.5
+R3,301.5,260.5
+R1,325.5,301
+Maxilla 1 crown,421,341
+Maxilla 1 root,409.5,293
+Mandible 1 crown,417.5,337.5
+Mandible 1 root,389.5,369
+Maxilla 6 distal,352.5,317.5
+Maxilla 6 root,361,289
+Mandible 6 distal,353,325
+Mandible 6 root,341.5,353.5
+Glabella,434,141.5
+Soft tissue naison,429.5,185
+Dorsum of nose,454,241.5
+pronasale,461,265
+Colunella,453,281
+Subnasalle,441,285
+Soft tissue A point,437,292.5
+Labrale superius,441.5,313.5
+Upper lip,445,325.5
+Stms,437,337
+Upper embrasure,425.5,334.5
+Lower embrasure,421,341
+Stmi,433,337.5
+Lower lip,437,353
+Labial Inferius,433,361
+Soft tissue b point,417,377.5
+Soft tissue pogonion,413,397
+Soft tissue Gnathion,401,417.5
+Soft tissue Menton,377,429
+Cervical point,329.5,445.5
+Nasion,414,137
+Sella,289.5,169
+Porion,249.5,213.5
+Orbitale,397.5,197
+Pterygoid,325.5,197.5
+Basion,253.5,253.5
+ANS,429.5,245
+PNS,333,249.5
+A point,417.5,257.5
+B point,413.5,349
+Protuberance menti,413.5,365.5
+Pogonion,417,377
+Menton,401.5,393.5
+Go-1 Corpuus left,297,333.5
+Go-2 Ramus down,273,261
+Articulare,265,237.5
+R3,306,248.5
+R1,337.5,281.5
+Maxilla 1 crown,433.5,312.5
+Maxilla 1 root,410,261
+Mandible 1 crown,426,305.5
+Mandible 1 root,409.5,345.5
+Maxilla 6 distal,361,293.5
+Maxilla 6 root,369,261.5
+Mandible 6 distal,361,301
+Mandible 6 root,353,333.5
+Glabella,429.5,113.5
+Soft tissue naison,429.5,153.5
+Dorsum of nose,464.5,209.5
+pronasale,472.5,230
+Colunella,465,245.5
+Subnasalle,445.5,253.5
+Soft tissue A point,445,257.5
+Labrale superius,453.5,281.5
+Upper lip,457,293.5
+Stms,449,305
+Upper embrasure,433.5,302
+Lower embrasure,429,308.5
+Stmi,441,309
+Lower lip,453,321
+Labial Inferius,449.5,329
+Soft tissue b point,441,349
+Soft tissue pogonion,441,373
+Soft tissue Gnathion,429,397.5
+Soft tissue Menton,405,409
+Cervical point,353,413
+Nasion,420.5,153
+Sella,289,177
+Porion,249.5,217
+Orbitale,401.5,213
+Pterygoid,325.5,209.5
+Basion,249.5,261
+ANS,433,269
+PNS,329,269
+A point,425.5,284.5
+B point,421,365
+Protuberance menti,422,381.5
+Pogonion,425,393
+Menton,409.5,409.5
+Go-1 Corpuus left,293.5,357.5
+Go-2 Ramus down,269,269
+Articulare,264.5,241.5
+R3,302,257
+R1,333,297
+Maxilla 1 crown,437,329
+Maxilla 1 root,417.5,285.5
+Mandible 1 crown,429.5,329.5
+Mandible 1 root,417.5,361.5
+Maxilla 6 distal,365.5,313.5
+Maxilla 6 root,373.5,281
+Mandible 6 distal,365,321
+Mandible 6 root,361,353
+Glabella,437,130
+Soft tissue naison,429.5,169.5
+Dorsum of nose,469,229.5
+pronasale,478,258
+Colunella,469,273.5
+Subnasalle,453.5,277.5
+Soft tissue A point,449,285
+Labrale superius,457,305.5
+Upper lip,461,313.5
+Stms,449.5,325
+Upper embrasure,437,325.5
+Lower embrasure,433.5,329
+Stmi,449.5,325
+Lower lip,456.5,341.5
+Labial Inferius,457,349
+Soft tissue b point,445,361.5
+Soft tissue pogonion,449,389.5
+Soft tissue Gnathion,437,413
+Soft tissue Menton,409.5,425
+Cervical point,349,429
+Nasion,425,165.5
+Sella,297.5,184.5
+Porion,253.5,221.5
+Orbitale,408.5,217
+Pterygoid,330,216.5
+Basion,249,261.5
+ANS,437.5,273
+PNS,334,269
+A point,429.5,285
+B point,405,369
+Protuberance menti,401.5,385
+Pogonion,401,397
+Menton,385.5,409.5
+Go-1 Corpuus left,289.5,341.5
+Go-2 Ramus down,269,265.5
+Articulare,265,245.5
+R3,306,257
+R1,337.5,297.5
+Maxilla 1 crown,437,336.5
+Maxilla 1 root,421.5,289
+Mandible 1 crown,433.5,333
+Mandible 1 root,405.5,365.5
+Maxilla 6 distal,361.5,313.5
+Maxilla 6 root,373.5,281.5
+Mandible 6 distal,365,320.5
+Mandible 6 root,353,349
+Glabella,438,141.5
+Soft tissue naison,433.5,181.5
+Dorsum of nose,465,237.5
+pronasale,473.5,257.5
+Colunella,469,273.5
+Subnasalle,453.5,281
+Soft tissue A point,449,285
+Labrale superius,457,305.5
+Upper lip,461,317.5
+Stms,453,332.5
+Upper embrasure,441.5,330
+Lower embrasure,437.5,333.5
+Stmi,449.5,333
+Lower lip,457,345
+Labial Inferius,449,357
+Soft tissue b point,433,373
+Soft tissue pogonion,425,393
+Soft tissue Gnathion,413.5,413
+Soft tissue Menton,389,421
+Cervical point,337,417.5
+Nasion,417,133.5
+Sella,289,169
+Porion,249.5,209
+Orbitale,405,193
+Pterygoid,329,197.5
+Basion,249.5,249.5
+ANS,441.5,241.5
+PNS,341,253.5
+A point,437.5,257
+B point,429.5,337
+Protuberance menti,429.5,353.5
+Pogonion,429,361.5
+Menton,418,378
+Go-1 Corpuus left,301.5,341
+Go-2 Ramus down,269,257
+Articulare,264.5,233
+R3,309,248.5
+R1,341.5,281
+Maxilla 1 crown,453,301.5
+Maxilla 1 root,430,261.5
+Mandible 1 crown,442,301
+Mandible 1 root,426,330
+Maxilla 6 distal,373,293
+Maxilla 6 root,381,265
+Mandible 6 distal,373,301
+Mandible 6 root,369,329.5
+Glabella,429.5,113.5
+Soft tissue naison,429.5,149.5
+Dorsum of nose,469.5,205.5
+pronasale,480.5,225.5
+Colunella,473,241.5
+Subnasalle,461,249.5
+Soft tissue A point,461,257
+Labrale superius,469,277.5
+Upper lip,472.5,285
+Stms,465.5,297
+Upper embrasure,453.5,297.5
+Lower embrasure,449,301.5
+Stmi,461.5,300.5
+Lower lip,465,313
+Labial Inferius,465,321
+Soft tissue b point,453,333.5
+Soft tissue pogonion,453,361
+Soft tissue Gnathion,441,381.5
+Soft tissue Menton,421,389
+Cervical point,365,405.5
+Nasion,429,173
+Sella,297,193
+Porion,249.5,233
+Orbitale,413.5,229
+Pterygoid,333.5,229.5
+Basion,245.5,273
+ANS,437.5,281.5
+PNS,333.5,285.5
+A point,429,297
+B point,425,385
+Protuberance menti,425.5,401
+Pogonion,425,409
+Menton,410,429.5
+Go-1 Corpuus left,289,393.5
+Go-2 Ramus down,265,285
+Articulare,261.5,257.5
+R3,305.5,280.5
+R1,337.5,321
+Maxilla 1 crown,445.5,345
+Maxilla 1 root,422,300.5
+Mandible 1 crown,437.5,341.5
+Mandible 1 root,418,377.5
+Maxilla 6 distal,365.5,333.5
+Maxilla 6 root,377.5,301.5
+Mandible 6 distal,369,341
+Mandible 6 root,365.5,373.5
+Glabella,448.5,148.5
+Soft tissue naison,441,189.5
+Dorsum of nose,469,245.5
+pronasale,477.5,269.5
+Colunella,469,281.5
+Subnasalle,453,289.5
+Soft tissue A point,453,297.5
+Labrale superius,461,317.5
+Upper lip,465,330
+Stms,457,341
+Upper embrasure,445,338
+Lower embrasure,441.5,345
+Stmi,453.5,341.5
+Lower lip,464.5,353
+Labial Inferius,461,365
+Soft tissue b point,449,381.5
+Soft tissue pogonion,449,409
+Soft tissue Gnathion,433,433
+Soft tissue Menton,413.5,441
+Cervical point,-1,-1
+Nasion,412.5,145
+Sella,289,172.5
+Porion,249.5,213
+Orbitale,398,205
+Pterygoid,326,205
+Basion,246,260.5
+ANS,429.5,253.5
+PNS,329,261.5
+A point,421,269
+B point,421.5,349
+Protuberance menti,425.5,365
+Pogonion,425,377.5
+Menton,413.5,393.5
+Go-1 Corpuus left,297,345
+Go-2 Ramus down,273,261.5
+Articulare,264.5,237.5
+R3,302,250
+R1,333.5,289
+Maxilla 1 crown,433.5,313
+Maxilla 1 root,414,273
+Mandible 1 crown,426,309.5
+Mandible 1 root,417.5,345.5
+Maxilla 6 distal,361.5,306
+Maxilla 6 root,369,273
+Mandible 6 distal,361,309
+Mandible 6 root,361,341
+Glabella,425.5,122
+Soft tissue naison,425,161.5
+Dorsum of nose,458,213.5
+pronasale,468.5,234
+Colunella,461,253.5
+Subnasalle,445.5,261
+Soft tissue A point,445.5,265
+Labrale superius,453,285.5
+Upper lip,456.5,297.5
+Stms,449,309.5
+Upper embrasure,433.5,310
+Lower embrasure,433.5,313
+Stmi,445.5,309.5
+Lower lip,453,321.5
+Labial Inferius,449,329.5
+Soft tissue b point,445,345
+Soft tissue pogonion,449,373.5
+Soft tissue Gnathion,437,401
+Soft tissue Menton,413,409.5
+Cervical point,353,417.5
+Nasion,425,158
+Sella,289.5,180.5
+Porion,245,217.5
+Orbitale,408.5,218
+Pterygoid,325.5,213.5
+Basion,241.5,261
+ANS,437.5,273
+PNS,329,273
+A point,425.5,285.5
+B point,429.5,385.5
+Protuberance menti,429.5,401
+Pogonion,429,413.5
+Menton,413.5,434
+Go-1 Corpuus left,293.5,369
+Go-2 Ramus down,265.5,265.5
+Articulare,261,241.5
+R3,302,261.5
+R1,333.5,304.5
+Maxilla 1 crown,445.5,341
+Maxilla 1 root,418,293
+Mandible 1 crown,438,337
+Mandible 1 root,421.5,377.5
+Maxilla 6 distal,365,325.5
+Maxilla 6 root,369,293
+Mandible 6 distal,369,336.5
+Mandible 6 root,365.5,365.5
+Glabella,441.5,138
+Soft tissue naison,434,176.5
+Dorsum of nose,469,233.5
+pronasale,477,257.5
+Colunella,469,273.5
+Subnasalle,453,281.5
+Soft tissue A point,453,288.5
+Labrale superius,461.5,309.5
+Upper lip,469,321.5
+Stms,461,333
+Upper embrasure,445.5,334
+Lower embrasure,441.5,340.5
+Stmi,457,337
+Lower lip,468.5,353
+Labial Inferius,465,361
+Soft tissue b point,453,381
+Soft tissue pogonion,453,413.5
+Soft tissue Gnathion,441.5,437
+Soft tissue Menton,417.5,449
+Cervical point,-1,-1
+Nasion,437,153.5
+Sella,297,177.5
+Porion,253.5,217
+Orbitale,421,212.5
+Pterygoid,337,209.5
+Basion,249.5,257.5
+ANS,449.5,269.5
+PNS,341,269.5
+A point,441.5,281.5
+B point,425,365
+Protuberance menti,421.5,381
+Pogonion,417,393.5
+Menton,405.5,405.5
+Go-1 Corpuus left,301,349.5
+Go-2 Ramus down,273,265
+Articulare,269,241.5
+R3,309.5,253.5
+R1,345,297
+Maxilla 1 crown,457.5,333
+Maxilla 1 root,433.5,284.5
+Mandible 1 crown,449.5,329
+Mandible 1 root,421.5,361.5
+Maxilla 6 distal,377,313.5
+Maxilla 6 root,385,281.5
+Mandible 6 distal,377,320.5
+Mandible 6 root,369,349
+Glabella,452.5,133
+Soft tissue naison,446,169
+Dorsum of nose,477.5,225.5
+pronasale,485,253
+Colunella,480.5,269.5
+Subnasalle,469,277
+Soft tissue A point,469,281
+Labrale superius,473.5,305.5
+Upper lip,477,313.5
+Stms,469,325
+Upper embrasure,457.5,326
+Lower embrasure,453.5,329.5
+Stmi,465,329
+Lower lip,472,341
+Labial Inferius,465,353
+Soft tissue b point,449.5,365
+Soft tissue pogonion,440.5,389.5
+Soft tissue Gnathion,425,409
+Soft tissue Menton,406,420.5
+Cervical point,349.5,417
+Nasion,425.5,153
+Sella,301.5,172.5
+Porion,253,213
+Orbitale,409.5,209
+Pterygoid,333.5,209
+Basion,249,257
+ANS,445.5,261.5
+PNS,337.5,262
+A point,433,273.5
+B point,429,357
+Protuberance menti,429.5,373
+Pogonion,429,381
+Menton,417.5,397.5
+Go-1 Corpuus left,301,341.5
+Go-2 Ramus down,273,261.5
+Articulare,269,237.5
+R3,309,256.5
+R1,341.5,293
+Maxilla 1 crown,449.5,320.5
+Maxilla 1 root,426,277
+Mandible 1 crown,442,317.5
+Mandible 1 root,426,349.5
+Maxilla 6 distal,369.5,309.5
+Maxilla 6 root,381,277.5
+Mandible 6 distal,369.5,317
+Mandible 6 root,365.5,345
+Glabella,441.5,129.5
+Soft tissue naison,438,169
+Dorsum of nose,473.5,221.5
+pronasale,481.5,245.5
+Colunella,477,261.5
+Subnasalle,461.5,269
+Soft tissue A point,461,277
+Labrale superius,469,297.5
+Upper lip,473,305.5
+Stms,465,317
+Upper embrasure,453,314
+Lower embrasure,445,321
+Stmi,461.5,317.5
+Lower lip,469,333
+Labial Inferius,464.5,341
+Soft tissue b point,453.5,353.5
+Soft tissue pogonion,453,381
+Soft tissue Gnathion,441,405
+Soft tissue Menton,417.5,413
+Cervical point,349.5,421
+Nasion,428.5,153.5
+Sella,289.5,169
+Porion,245.5,209
+Orbitale,410,208.5
+Pterygoid,329.5,205.5
+Basion,245.5,253
+ANS,437,265
+PNS,333,261.5
+A point,429.5,277.5
+B point,409.5,365.5
+Protuberance menti,409.5,377.5
+Pogonion,409.5,389.5
+Menton,397.5,405.5
+Go-1 Corpuus left,289,345
+Go-2 Ramus down,268.5,257
+Articulare,261.5,237.5
+R3,304.5,253
+R1,334,289
+Maxilla 1 crown,433,329
+Maxilla 1 root,421.5,281
+Mandible 1 crown,430,325
+Mandible 1 root,409,357.5
+Maxilla 6 distal,361,305.5
+Maxilla 6 root,373.5,273
+Mandible 6 distal,361,313
+Mandible 6 root,349.5,341.5
+Glabella,445,129.5
+Soft tissue naison,437.5,169.5
+Dorsum of nose,473,225.5
+pronasale,481,249.5
+Colunella,473,269
+Subnasalle,457,273.5
+Soft tissue A point,453,281
+Labrale superius,460.5,301.5
+Upper lip,461,313.5
+Stms,449,325
+Upper embrasure,437.5,322
+Lower embrasure,433,329
+Stmi,445.5,329
+Lower lip,453,341
+Labial Inferius,449,353
+Soft tissue b point,437,365
+Soft tissue pogonion,436.5,389.5
+Soft tissue Gnathion,425,409.5
+Soft tissue Menton,401.5,421
+Cervical point,337.5,421
+Nasion,418,169
+Sella,293,181
+Porion,249.5,217
+Orbitale,400.5,222
+Pterygoid,325.5,213.5
+Basion,245.5,257
+ANS,429.5,273
+PNS,329.5,265.5
+A point,417.5,285
+B point,397,369.5
+Protuberance menti,393.5,385
+Pogonion,393.5,397
+Menton,378,413.5
+Go-1 Corpuus left,281,349.5
+Go-2 Ramus down,268.5,265.5
+Articulare,264.5,241.5
+R3,301.5,254
+R1,325.5,293
+Maxilla 1 crown,429,337
+Maxilla 1 root,409.5,289
+Mandible 1 crown,422,333.5
+Mandible 1 root,393.5,365.5
+Maxilla 6 distal,353,313.5
+Maxilla 6 root,365.5,281
+Mandible 6 distal,349.5,321
+Mandible 6 root,341.5,349
+Glabella,437.5,145.5
+Soft tissue naison,430,185.5
+Dorsum of nose,461,237.5
+pronasale,469,261
+Colunella,461,277.5
+Subnasalle,445,281.5
+Soft tissue A point,441.5,289
+Labrale superius,449.5,313.5
+Upper lip,449,325.5
+Stms,441.5,336.5
+Upper embrasure,429,334
+Lower embrasure,425,336.5
+Stmi,437,336.5
+Lower lip,445,348.5
+Labial Inferius,436.5,357
+Soft tissue b point,425,369
+Soft tissue pogonion,421,397
+Soft tissue Gnathion,405,417
+Soft tissue Menton,381,425
+Cervical point,333.5,445
+Nasion,437.5,185.5
+Sella,297.5,189
+Porion,252.5,221.5
+Orbitale,413.5,241
+Pterygoid,333,229.5
+Basion,241,265
+ANS,437,301
+PNS,330,285.5
+A point,425.5,313.5
+B point,393.5,397.5
+Protuberance menti,385,417.5
+Pogonion,381,425
+Menton,365.5,441.5
+Go-1 Corpuus left,278,357.5
+Go-2 Ramus down,269,273
+Articulare,264.5,249
+R3,305,265
+R1,329.5,312.5
+Maxilla 1 crown,429.5,368.5
+Maxilla 1 root,418,317
+Mandible 1 crown,426,365
+Mandible 1 root,393.5,389.5
+Maxilla 6 distal,357,337.5
+Maxilla 6 root,369,305.5
+Mandible 6 distal,357.5,345
+Mandible 6 root,345.5,369.5
+Glabella,457.5,165
+Soft tissue naison,449.5,205.5
+Dorsum of nose,474,265
+pronasale,480.5,290
+Colunella,473,305
+Subnasalle,453.5,309.5
+Soft tissue A point,453.5,317.5
+Labrale superius,453.5,337.5
+Upper lip,456.5,349.5
+Stms,445,364.5
+Upper embrasure,433,362
+Lower embrasure,429.5,365
+Stmi,441,364.5
+Lower lip,445,377
+Labial Inferius,440.5,389
+Soft tissue b point,421,401.5
+Soft tissue pogonion,417,421.5
+Soft tissue Gnathion,393,445
+Soft tissue Menton,365,452.5
+Cervical point,-1,-1
+Nasion,437,161.5
+Sella,298,180.5
+Porion,253,217
+Orbitale,417.5,217
+Pterygoid,333.5,213.5
+Basion,249.5,261
+ANS,449,269.5
+PNS,337.5,269.5
+A point,437,281
+B point,425.5,361.5
+Protuberance menti,429.5,377.5
+Pogonion,429.5,385
+Menton,417.5,405
+Go-1 Corpuus left,293.5,365.5
+Go-2 Ramus down,269,273
+Articulare,264.5,245.5
+R3,305.5,265
+R1,341.5,301.5
+Maxilla 1 crown,445,329.5
+Maxilla 1 root,429.5,285
+Mandible 1 crown,437.5,326
+Mandible 1 root,422,357.5
+Maxilla 6 distal,369,313.5
+Maxilla 6 root,381.5,281.5
+Mandible 6 distal,369,321
+Mandible 6 root,365,353.5
+Glabella,453,141
+Soft tissue naison,445.5,181
+Dorsum of nose,477.5,233.5
+pronasale,484.5,253.5
+Colunella,477,273.5
+Subnasalle,465,277.5
+Soft tissue A point,461,285
+Labrale superius,465.5,305.5
+Upper lip,469,317.5
+Stms,461,329
+Upper embrasure,445,326
+Lower embrasure,441,329.5
+Stmi,453.5,329.5
+Lower lip,461,341
+Labial Inferius,457,349
+Soft tissue b point,449.5,361
+Soft tissue pogonion,453,385
+Soft tissue Gnathion,441,409.5
+Soft tissue Menton,421.5,420.5
+Cervical point,349.5,417
+Nasion,421.5,142
+Sella,289,173
+Porion,245.5,221
+Orbitale,405,205
+Pterygoid,329.5,209
+Basion,245,261
+ANS,441,254
+PNS,337.5,261
+A point,433.5,268.5
+B point,409.5,353
+Protuberance menti,405.5,369
+Pogonion,401.5,377.5
+Menton,389.5,393.5
+Go-1 Corpuus left,293.5,333.5
+Go-2 Ramus down,273,261
+Articulare,265,241.5
+R3,305.5,253
+R1,337,281.5
+Maxilla 1 crown,441,316.5
+Maxilla 1 root,426,273.5
+Mandible 1 crown,434,313.5
+Mandible 1 root,409.5,345.5
+Maxilla 6 distal,369,298
+Maxilla 6 root,381,269.5
+Mandible 6 distal,369,305
+Mandible 6 root,361,333.5
+Glabella,436.5,121.5
+Soft tissue naison,433,158
+Dorsum of nose,473,213.5
+pronasale,481,237.5
+Colunella,473,257
+Subnasalle,457.5,261
+Soft tissue A point,457.5,269
+Labrale superius,465.5,289.5
+Upper lip,465,301.5
+Stms,457,313
+Upper embrasure,445,310
+Lower embrasure,437.5,316.5
+Stmi,453.5,313.5
+Lower lip,456.5,329
+Labial Inferius,449.5,337
+Soft tissue b point,437,349
+Soft tissue pogonion,429.5,377.5
+Soft tissue Gnathion,417,397
+Soft tissue Menton,389.5,405
+Cervical point,349,425.5
+Nasion,413,166
+Sella,285.5,180.5
+Porion,249,221.5
+Orbitale,393,221.5
+Pterygoid,321.5,213.5
+Basion,246,261
+ANS,417.5,273.5
+PNS,325,269.5
+A point,409.5,282
+B point,417,361
+Protuberance menti,421.5,373.5
+Pogonion,421,381.5
+Menton,410,397
+Go-1 Corpuus left,293.5,349.5
+Go-2 Ramus down,269,265
+Articulare,261.5,245.5
+R3,301,258
+R1,329,293
+Maxilla 1 crown,425,325
+Maxilla 1 root,402,285
+Mandible 1 crown,417.5,321.5
+Mandible 1 root,409.5,353.5
+Maxilla 6 distal,353,305.5
+Maxilla 6 root,361.5,277.5
+Mandible 6 distal,357,313
+Mandible 6 root,349.5,345.5
+Glabella,433,145
+Soft tissue naison,422,185.5
+Dorsum of nose,453.5,237
+pronasale,464,257.5
+Colunella,453,274
+Subnasalle,437,277.5
+Soft tissue A point,433,285
+Labrale superius,441,301.5
+Upper lip,445,309.5
+Stms,437,321
+Upper embrasure,425,318
+Lower embrasure,421.5,325
+Stmi,433.5,321
+Lower lip,445,333
+Labial Inferius,445,337.5
+Soft tissue b point,437,353
+Soft tissue pogonion,441,381.5
+Soft tissue Gnathion,433,401.5
+Soft tissue Menton,413.5,413
+Cervical point,361,433.5
+Nasion,416.5,182
+Sella,289.5,197
+Porion,249.5,229.5
+Orbitale,396.5,237
+Pterygoid,321.5,229
+Basion,245.5,272.5
+ANS,421.5,285
+PNS,328.5,281
+A point,413,297.5
+B point,413.5,377
+Protuberance menti,413.5,393
+Pogonion,413.5,401.5
+Menton,402,421
+Go-1 Corpuus left,297.5,353.5
+Go-2 Ramus down,273,276.5
+Articulare,265,253.5
+R3,305,269.5
+R1,333,309
+Maxilla 1 crown,421,344.5
+Maxilla 1 root,406,301
+Mandible 1 crown,417.5,341.5
+Mandible 1 root,406,373.5
+Maxilla 6 distal,357.5,325.5
+Maxilla 6 root,369,297
+Mandible 6 distal,361,333
+Mandible 6 root,357.5,361
+Glabella,433,157.5
+Soft tissue naison,425.5,201
+Dorsum of nose,454,249.5
+pronasale,465,266
+Colunella,453,285
+Subnasalle,437.5,293.5
+Soft tissue A point,437,297.5
+Labrale superius,441,317.5
+Upper lip,445,325.5
+Stms,437,341
+Upper embrasure,425,338
+Lower embrasure,421,344.5
+Stmi,433,341
+Lower lip,441,353
+Labial Inferius,440.5,357
+Soft tissue b point,433,373.5
+Soft tissue pogonion,440.5,401
+Soft tissue Gnathion,429,425.5
+Soft tissue Menton,405.5,433
+Cervical point,345,437
+Nasion,417,164.5
+Sella,297.5,193
+Porion,253.5,229
+Orbitale,405.5,221
+Pterygoid,329,221.5
+Basion,249.5,273
+ANS,433.5,277.5
+PNS,329.5,277
+A point,421,289
+B point,405.5,377
+Protuberance menti,401.5,393.5
+Pogonion,401.5,401.5
+Menton,389.5,417.5
+Go-1 Corpuus left,293.5,357.5
+Go-2 Ramus down,273,276.5
+Articulare,269,249.5
+R3,306,265
+R1,333.5,304.5
+Maxilla 1 crown,429.5,340.5
+Maxilla 1 root,417.5,293
+Mandible 1 crown,425.5,336.5
+Mandible 1 root,401.5,369.5
+Maxilla 6 distal,357,317.5
+Maxilla 6 root,368.5,289
+Mandible 6 distal,360.5,328.5
+Mandible 6 root,349.5,357.5
+Glabella,432.5,137.5
+Soft tissue naison,429.5,181
+Dorsum of nose,461,241.5
+pronasale,469,262
+Colunella,460.5,281.5
+Subnasalle,445,285.5
+Soft tissue A point,445,293
+Labrale superius,449.5,313.5
+Upper lip,453,325.5
+Stms,445,337
+Upper embrasure,433,334.5
+Lower embrasure,429.5,337
+Stmi,441,336.5
+Lower lip,445,349
+Labial Inferius,441,357
+Soft tissue b point,433,373.5
+Soft tissue pogonion,428.5,397.5
+Soft tissue Gnathion,413,421
+Soft tissue Menton,389.5,429
+Cervical point,325,437.5
+Nasion,432.5,145.5
+Sella,293,165
+Porion,249.5,209
+Orbitale,414,205
+Pterygoid,333.5,201
+Basion,249.5,253
+ANS,445.5,261.5
+PNS,337,261
+A point,433.5,277
+B point,417,361
+Protuberance menti,413.5,377.5
+Pogonion,413.5,389.5
+Menton,401.5,405.5
+Go-1 Corpuus left,293.5,341.5
+Go-2 Ramus down,273,257.5
+Articulare,265,237.5
+R3,308.5,249
+R1,337.5,289
+Maxilla 1 crown,445.5,329
+Maxilla 1 root,425.5,277
+Mandible 1 crown,437.5,322
+Mandible 1 root,413.5,357.5
+Maxilla 6 distal,365.5,305.5
+Maxilla 6 root,381,273.5
+Mandible 6 distal,365.5,313
+Mandible 6 root,357,345
+Glabella,449.5,121.5
+Soft tissue naison,441.5,165.5
+Dorsum of nose,473,225.5
+pronasale,481,249.5
+Colunella,476.5,265.5
+Subnasalle,461,269
+Soft tissue A point,461.5,277
+Labrale superius,469,297.5
+Upper lip,472.5,309.5
+Stms,461,321.5
+Upper embrasure,445.5,322
+Lower embrasure,441.5,325
+Stmi,457.5,325
+Lower lip,465,341
+Labial Inferius,461,349.5
+Soft tissue b point,449,361.5
+Soft tissue pogonion,445,385.5
+Soft tissue Gnathion,425,409
+Soft tissue Menton,401.5,421
+Cervical point,333.5,429.5
+Nasion,428.5,189
+Sella,301.5,188.5
+Porion,258,229
+Orbitale,405.5,241
+Pterygoid,333,230
+Basion,253.5,269.5
+ANS,425.5,293.5
+PNS,333.5,285
+A point,417.5,305.5
+B point,425,389.5
+Protuberance menti,425.5,405
+Pogonion,425,413
+Menton,414,429
+Go-1 Corpuus left,301,369
+Go-2 Ramus down,276.5,277
+Articulare,269.5,253.5
+R3,309,273
+R1,337.5,317.5
+Maxilla 1 crown,437,352.5
+Maxilla 1 root,410,309
+Mandible 1 crown,426,346
+Mandible 1 root,418,385.5
+Maxilla 6 distal,361.5,333.5
+Maxilla 6 root,369,305
+Mandible 6 distal,364.5,341
+Mandible 6 root,358,369.5
+Glabella,449,165.5
+Soft tissue naison,437,205.5
+Dorsum of nose,461,257.5
+pronasale,469.5,281.5
+Colunella,460.5,297.5
+Subnasalle,445.5,301.5
+Soft tissue A point,441.5,308.5
+Labrale superius,449,325.5
+Upper lip,456.5,333.5
+Stms,449.5,345
+Upper embrasure,437,346
+Lower embrasure,433.5,348.5
+Stmi,445,345
+Lower lip,457,361
+Labial Inferius,453,369
+Soft tissue b point,445.5,385.5
+Soft tissue pogonion,445,413
+Soft tissue Gnathion,437,433
+Soft tissue Menton,413,441
+Cervical point,349.5,433
+Nasion,432.5,137
+Sella,297.5,165
+Porion,258,209
+Orbitale,413.5,197
+Pterygoid,337,197
+Basion,257,245
+ANS,445,242
+PNS,341,249.5
+A point,433.5,257
+B point,417,345.5
+Protuberance menti,413,361
+Pogonion,409,373.5
+Menton,397.5,389.5
+Go-1 Corpuus left,305.5,325.5
+Go-2 Ramus down,281,253
+Articulare,273,229.5
+R3,313.5,241.5
+R1,345,277
+Maxilla 1 crown,441,308.5
+Maxilla 1 root,429.5,261
+Mandible 1 crown,437.5,305
+Mandible 1 root,413,337.5
+Maxilla 6 distal,369,289.5
+Maxilla 6 root,381,261.5
+Mandible 6 distal,369,297
+Mandible 6 root,361.5,325.5
+Glabella,445,113.5
+Soft tissue naison,445.5,149.5
+Dorsum of nose,477.5,205.5
+pronasale,484.5,229.5
+Colunella,477,245
+Subnasalle,461,249.5
+Soft tissue A point,457.5,257
+Labrale superius,465,277.5
+Upper lip,465,289.5
+Stms,457,301.5
+Upper embrasure,445.5,302
+Lower embrasure,441.5,305
+Stmi,453,305
+Lower lip,461,317
+Labial Inferius,453,325
+Soft tissue b point,441,345.5
+Soft tissue pogonion,433,369.5
+Soft tissue Gnathion,420.5,393
+Soft tissue Menton,401,405
+Cervical point,365,417
+Nasion,425,180.5
+Sella,297.5,189
+Porion,249,221.5
+Orbitale,405.5,233
+Pterygoid,333,225.5
+Basion,245.5,261
+ANS,433.5,285
+PNS,332.5,281
+A point,425,297.5
+B point,413,389
+Protuberance menti,409.5,401.5
+Pogonion,413,413.5
+Menton,397.5,429.5
+Go-1 Corpuus left,285,361.5
+Go-2 Ramus down,269,273
+Articulare,264.5,249
+R3,305.5,269.5
+R1,333,309
+Maxilla 1 crown,437,353
+Maxilla 1 root,418,301
+Mandible 1 crown,429.5,345
+Mandible 1 root,409.5,381.5
+Maxilla 6 distal,361.5,325.5
+Maxilla 6 root,373.5,297
+Mandible 6 distal,361,336.5
+Mandible 6 root,350,366
+Glabella,444.5,157.5
+Soft tissue naison,437,197.5
+Dorsum of nose,465.5,249.5
+pronasale,477,273
+Colunella,469,289
+Subnasalle,449.5,293.5
+Soft tissue A point,449.5,300.5
+Labrale superius,453.5,321.5
+Upper lip,457,333.5
+Stms,449,345
+Upper embrasure,437,342.5
+Lower embrasure,433.5,348.5
+Stmi,445.5,346
+Lower lip,453,361
+Labial Inferius,448.5,373
+Soft tissue b point,437,385.5
+Soft tissue pogonion,433,413.5
+Soft tissue Gnathion,421,433.5
+Soft tissue Menton,401,444.5
+Cervical point,321.5,441
+Nasion,425.5,141.5
+Sella,297,165.5
+Porion,253,205.5
+Orbitale,409.5,197
+Pterygoid,333.5,197.5
+Basion,249.5,253
+ANS,437.5,249.5
+PNS,341,249.5
+A point,425,261
+B point,417.5,349
+Protuberance menti,421.5,365
+Pogonion,421,377
+Menton,406,393.5
+Go-1 Corpuus left,301.5,333.5
+Go-2 Ramus down,276.5,253
+Articulare,269.5,229.5
+R3,312.5,244.5
+R1,341.5,277.5
+Maxilla 1 crown,437,308.5
+Maxilla 1 root,418,265
+Mandible 1 crown,430,305.5
+Mandible 1 root,414,345
+Maxilla 6 distal,365.5,289.5
+Maxilla 6 root,377.5,261
+Mandible 6 distal,368.5,301
+Mandible 6 root,361,333.5
+Glabella,441.5,117.5
+Soft tissue naison,437,158
+Dorsum of nose,469.5,213.5
+pronasale,477.5,237.5
+Colunella,469,249.5
+Subnasalle,453,257.5
+Soft tissue A point,449.5,261
+Labrale superius,457,281.5
+Upper lip,461,293.5
+Stms,449.5,305
+Upper embrasure,437.5,302
+Lower embrasure,433.5,308.5
+Stmi,449.5,305
+Lower lip,457,321
+Labial Inferius,453,329
+Soft tissue b point,445,345
+Soft tissue pogonion,441,373
+Soft tissue Gnathion,429.5,397
+Soft tissue Menton,409,405
+Cervical point,349.5,409.5
+Nasion,432,172.5
+Sella,293.5,188.5
+Porion,245,225.5
+Orbitale,413.5,229
+Pterygoid,330,225
+Basion,237.5,269.5
+ANS,441,278
+PNS,333,281.5
+A point,429.5,293.5
+B point,425.5,385.5
+Protuberance menti,425,397
+Pogonion,425,409.5
+Menton,413.5,425.5
+Go-1 Corpuus left,289.5,361
+Go-2 Ramus down,265,273
+Articulare,261,249.5
+R3,305,269
+R1,333.5,309.5
+Maxilla 1 crown,445.5,345
+Maxilla 1 root,422,297.5
+Mandible 1 crown,438,341.5
+Mandible 1 root,421.5,377.5
+Maxilla 6 distal,361,326
+Maxilla 6 root,373.5,293.5
+Mandible 6 distal,365.5,336.5
+Mandible 6 root,354,365.5
+Glabella,453,149.5
+Soft tissue naison,441,190
+Dorsum of nose,473,241.5
+pronasale,480.5,265
+Colunella,473,281
+Subnasalle,457.5,285.5
+Soft tissue A point,457,293
+Labrale superius,465,313.5
+Upper lip,468.5,325
+Stms,461,341
+Upper embrasure,445,338
+Lower embrasure,441.5,345
+Stmi,453.5,341.5
+Lower lip,465,357.5
+Labial Inferius,461,365
+Soft tissue b point,453,381.5
+Soft tissue pogonion,453,409.5
+Soft tissue Gnathion,441,429
+Soft tissue Menton,417,437.5
+Cervical point,337,453
+Nasion,408.5,141
+Sella,281.5,181
+Porion,241.5,221
+Orbitale,393,197
+Pterygoid,321,205
+Basion,245.5,261
+ANS,429.5,241
+PNS,329,252.5
+A point,421.5,253
+B point,409,333
+Protuberance menti,409,349.5
+Pogonion,409.5,357
+Menton,394,373.5
+Go-1 Corpuus left,293.5,325.5
+Go-2 Ramus down,269,260.5
+Articulare,265,241.5
+R3,302,249
+R1,329,273
+Maxilla 1 crown,437,297
+Maxilla 1 root,413.5,257
+Mandible 1 crown,429.5,297.5
+Mandible 1 root,405.5,329.5
+Maxilla 6 distal,353.5,285.5
+Maxilla 6 root,365,257
+Mandible 6 distal,357,293
+Mandible 6 root,350,321.5
+Glabella,421.5,121.5
+Soft tissue naison,417.5,157.5
+Dorsum of nose,457.5,205.5
+pronasale,465.5,225.5
+Colunella,461,241.5
+Subnasalle,445.5,245.5
+Soft tissue A point,445.5,253
+Labrale superius,457,273.5
+Upper lip,460.5,281.5
+Stms,453.5,293
+Upper embrasure,437,294
+Lower embrasure,433,297
+Stmi,449,293
+Lower lip,453,305
+Labial Inferius,449,317
+Soft tissue b point,437,329.5
+Soft tissue pogonion,433,357
+Soft tissue Gnathion,421,377
+Soft tissue Menton,397,389
+Cervical point,345,413.5
+Nasion,429.5,165
+Sella,293.5,184.5
+Porion,252.5,221.5
+Orbitale,416.5,225.5
+Pterygoid,333.5,221
+Basion,245.5,265.5
+ANS,441.5,277.5
+PNS,337,277
+A point,429,293
+B point,413.5,373.5
+Protuberance menti,417.5,385.5
+Pogonion,417,393.5
+Menton,405.5,409.5
+Go-1 Corpuus left,289,361
+Go-2 Ramus down,273,272.5
+Articulare,265,249.5
+R3,306,262
+R1,337.5,305
+Maxilla 1 crown,433.5,337
+Maxilla 1 root,418,293.5
+Mandible 1 crown,426,333.5
+Mandible 1 root,409.5,365
+Maxilla 6 distal,361,317.5
+Maxilla 6 root,377,289
+Mandible 6 distal,361,325
+Mandible 6 root,353.5,357.5
+Glabella,444.5,141.5
+Soft tissue naison,437.5,181.5
+Dorsum of nose,473,237.5
+pronasale,480.5,261.5
+Colunella,473,277.5
+Subnasalle,457,285
+Soft tissue A point,453.5,293
+Labrale superius,457.5,313.5
+Upper lip,461,321.5
+Stms,449,333.5
+Upper embrasure,437,330
+Lower embrasure,433.5,337
+Stmi,445,333.5
+Lower lip,453,345
+Labial Inferius,449,353.5
+Soft tissue b point,441,369.5
+Soft tissue pogonion,441,393
+Soft tissue Gnathion,429,413
+Soft tissue Menton,405.5,425
+Cervical point,329.5,417
+Nasion,421.5,161.5
+Sella,293,181
+Porion,253,221.5
+Orbitale,405,218
+Pterygoid,329.5,217
+Basion,245.5,265
+ANS,433.5,269
+PNS,333,273
+A point,421,281
+B point,413.5,361
+Protuberance menti,413.5,377.5
+Pogonion,417,385
+Menton,402,401.5
+Go-1 Corpuus left,289.5,357.5
+Go-2 Ramus down,269,269.5
+Articulare,264.5,249
+R3,302,261.5
+R1,333,297.5
+Maxilla 1 crown,437,328.5
+Maxilla 1 root,417.5,285.5
+Mandible 1 crown,430,325
+Mandible 1 root,409.5,357.5
+Maxilla 6 distal,357,309.5
+Maxilla 6 root,369,281.5
+Mandible 6 distal,361,320.5
+Mandible 6 root,353,349.5
+Glabella,437.5,141.5
+Soft tissue naison,433.5,178
+Dorsum of nose,461.5,229
+pronasale,473,250
+Colunella,465.5,265.5
+Subnasalle,449,273.5
+Soft tissue A point,449.5,281
+Labrale superius,457.5,297
+Upper lip,461.5,309.5
+Stms,453,321.5
+Upper embrasure,437.5,322
+Lower embrasure,433.5,325
+Stmi,449,325
+Lower lip,457,337
+Labial Inferius,453,345
+Soft tissue b point,441.5,361.5
+Soft tissue pogonion,441,385.5
+Soft tissue Gnathion,429,405
+Soft tissue Menton,405,417
+Cervical point,341.5,445
+Nasion,424.5,150
+Sella,297.5,177
+Porion,253,221.5
+Orbitale,409.5,208.5
+Pterygoid,333.5,209.5
+Basion,245.5,265
+ANS,441,265
+PNS,341,269.5
+A point,433,277.5
+B point,417.5,365
+Protuberance menti,417.5,381
+Pogonion,417,393
+Menton,405.5,406
+Go-1 Corpuus left,297.5,349
+Go-2 Ramus down,273,269
+Articulare,264.5,245.5
+R3,309,261.5
+R1,341.5,297
+Maxilla 1 crown,441,328.5
+Maxilla 1 root,426,281
+Mandible 1 crown,434,321.5
+Mandible 1 root,417.5,358
+Maxilla 6 distal,369,309.5
+Maxilla 6 root,377,281.5
+Mandible 6 distal,368.5,317
+Mandible 6 root,361,349.5
+Glabella,436.5,129.5
+Soft tissue naison,437,166
+Dorsum of nose,473.5,225.5
+pronasale,481,249.5
+Colunella,473,265.5
+Subnasalle,457,273
+Soft tissue A point,457.5,277
+Labrale superius,465,301.5
+Upper lip,465,309.5
+Stms,457,321
+Upper embrasure,445.5,322
+Lower embrasure,441,325
+Stmi,453,321.5
+Lower lip,461,337
+Labial Inferius,457,345.5
+Soft tissue b point,441,361
+Soft tissue pogonion,437,389
+Soft tissue Gnathion,425.5,409.5
+Soft tissue Menton,405.5,420.5
+Cervical point,345,417
+Nasion,432.5,153
+Sella,297.5,177
+Porion,257.5,213.5
+Orbitale,416,209.5
+Pterygoid,333.5,209
+Basion,253.5,257
+ANS,445.5,261.5
+PNS,341.5,269.5
+A point,437.5,277
+B point,421,365
+Protuberance menti,417.5,381.5
+Pogonion,421,393.5
+Menton,406,409
+Go-1 Corpuus left,305,353
+Go-2 Ramus down,277,265
+Articulare,269.5,241.5
+R3,313,260.5
+R1,345.5,297
+Maxilla 1 crown,441.5,329
+Maxilla 1 root,430,280.5
+Mandible 1 crown,438,325.5
+Mandible 1 root,417.5,358
+Maxilla 6 distal,373,309.5
+Maxilla 6 root,385,277.5
+Mandible 6 distal,373,316.5
+Mandible 6 root,365.5,345
+Glabella,449,129.5
+Soft tissue naison,442,169
+Dorsum of nose,477,221.5
+pronasale,485,245.5
+Colunella,477,261.5
+Subnasalle,461,269
+Soft tissue A point,461,277
+Labrale superius,465.5,301.5
+Upper lip,469,313.5
+Stms,457,325
+Upper embrasure,445,322
+Lower embrasure,441.5,329
+Stmi,453.5,325.5
+Lower lip,461,341
+Labial Inferius,457,353
+Soft tissue b point,445,365.5
+Soft tissue pogonion,444.5,393.5
+Soft tissue Gnathion,433,413.5
+Soft tissue Menton,409,421
+Cervical point,357,429
+Nasion,430,169
+Sella,301,177
+Porion,253.5,213
+Orbitale,413.5,225
+Pterygoid,333,217
+Basion,249,257
+ANS,433.5,281.5
+PNS,333.5,277
+A point,425,293.5
+B point,421.5,389
+Protuberance menti,417.5,405.5
+Pogonion,417.5,417.5
+Menton,402,433.5
+Go-1 Corpuus left,293.5,369.5
+Go-2 Ramus down,273,269
+Articulare,265,241.5
+R3,309.5,265
+R1,337.5,313.5
+Maxilla 1 crown,441,345
+Maxilla 1 root,418,301
+Mandible 1 crown,433.5,341.5
+Mandible 1 root,417.5,381.5
+Maxilla 6 distal,365,329.5
+Maxilla 6 root,373.5,296.5
+Mandible 6 distal,365,340.5
+Mandible 6 root,358,369.5
+Glabella,449.5,145.5
+Soft tissue naison,437.5,185.5
+Dorsum of nose,468.5,241.5
+pronasale,477,265.5
+Colunella,469,281
+Subnasalle,453.5,289
+Soft tissue A point,449,292.5
+Labrale superius,461.5,313.5
+Upper lip,465,321.5
+Stms,457,337
+Upper embrasure,445.5,338
+Lower embrasure,441,345
+Stmi,453,341.5
+Lower lip,465,353.5
+Labial Inferius,461,365
+Soft tissue b point,449,381
+Soft tissue pogonion,444.5,409
+Soft tissue Gnathion,425,437
+Soft tissue Menton,401,445
+Cervical point,349,445.5
+Nasion,424.5,149.5
+Sella,293,173
+Porion,253.5,217
+Orbitale,409,206
+Pterygoid,333.5,205
+Basion,253.5,261
+ANS,437.5,257
+PNS,337.5,261
+A point,429,269
+B point,421.5,357.5
+Protuberance menti,422,373.5
+Pogonion,421.5,385
+Menton,406,401
+Go-1 Corpuus left,301.5,345
+Go-2 Ramus down,277,265
+Articulare,269,241.5
+R3,309.5,252.5
+R1,341.5,289
+Maxilla 1 crown,445.5,320.5
+Maxilla 1 root,421.5,273
+Mandible 1 crown,438,317
+Mandible 1 root,418,353.5
+Maxilla 6 distal,369,301.5
+Maxilla 6 root,377,273.5
+Mandible 6 distal,369,309
+Mandible 6 root,365,341
+Glabella,437.5,125.5
+Soft tissue naison,433,166
+Dorsum of nose,465.5,221.5
+pronasale,473.5,241
+Colunella,468.5,257.5
+Subnasalle,453.5,261
+Soft tissue A point,453.5,269.5
+Labrale superius,465,289.5
+Upper lip,468.5,301.5
+Stms,457.5,313
+Upper embrasure,445.5,314
+Lower embrasure,441.5,317.5
+Stmi,453,317
+Lower lip,461,329
+Labial Inferius,457,341.5
+Soft tissue b point,449,357
+Soft tissue pogonion,445,385.5
+Soft tissue Gnathion,433,405.5
+Soft tissue Menton,410,413
+Cervical point,353,409
+Nasion,432.5,169
+Sella,293,185
+Porion,253.5,225
+Orbitale,413,221
+Pterygoid,333.5,221
+Basion,241.5,269
+ANS,437,273.5
+PNS,337,273.5
+A point,425.5,285
+B point,409.5,361
+Protuberance menti,413,377.5
+Pogonion,413.5,385.5
+Menton,402,401.5
+Go-1 Corpuus left,293.5,349.5
+Go-2 Ramus down,268.5,273
+Articulare,265,249.5
+R3,305,262
+R1,334,297
+Maxilla 1 crown,429.5,333
+Maxilla 1 root,418,289.5
+Mandible 1 crown,421.5,329.5
+Mandible 1 root,406,357.5
+Maxilla 6 distal,357,309.5
+Maxilla 6 root,373,281.5
+Mandible 6 distal,361,317
+Mandible 6 root,350,349.5
+Glabella,449.5,148.5
+Soft tissue naison,442,185
+Dorsum of nose,470,241
+pronasale,478,261.5
+Colunella,469.5,278
+Subnasalle,453,285.5
+Soft tissue A point,453,289
+Labrale superius,457,309.5
+Upper lip,457,321.5
+Stms,445,329
+Upper embrasure,429,326.5
+Lower embrasure,425,333
+Stmi,441,329.5
+Lower lip,449,341
+Labial Inferius,445,349
+Soft tissue b point,437,361
+Soft tissue pogonion,437,385
+Soft tissue Gnathion,429,405
+Soft tissue Menton,405.5,413
+Cervical point,341,437
+Nasion,440.5,169.5
+Sella,298,177
+Porion,249,209
+Orbitale,417,225
+Pterygoid,333,214
+Basion,241.5,257
+ANS,437.5,285.5
+PNS,333,277.5
+A point,425,301
+B point,401.5,393
+Protuberance menti,397.5,409
+Pogonion,393,421
+Menton,377.5,437
+Go-1 Corpuus left,281.5,365
+Go-2 Ramus down,265,265.5
+Articulare,261,241.5
+R3,304.5,262
+R1,329,309
+Maxilla 1 crown,433,357
+Maxilla 1 root,421.5,305
+Mandible 1 crown,425.5,353.5
+Mandible 1 root,398,385.5
+Maxilla 6 distal,357,329.5
+Maxilla 6 root,373.5,297
+Mandible 6 distal,357.5,337
+Mandible 6 root,345.5,365
+Glabella,461,150
+Soft tissue naison,449.5,189.5
+Dorsum of nose,468.5,245.5
+pronasale,474,269.5
+Colunella,465,285.5
+Subnasalle,453,293
+Soft tissue A point,449,301
+Labrale superius,457,325.5
+Upper lip,461,337.5
+Stms,449,353
+Upper embrasure,437.5,350
+Lower embrasure,429.5,357
+Stmi,445.5,353
+Lower lip,453,369
+Labial Inferius,449.5,377.5
+Soft tissue b point,433,393
+Soft tissue pogonion,425,417.5
+Soft tissue Gnathion,405,441
+Soft tissue Menton,381.5,452.5
+Cervical point,-1,-1
+Nasion,425,133
+Sella,289,173
+Porion,253.5,217
+Orbitale,409.5,193
+Pterygoid,329,198.5
+Basion,253.5,257
+ANS,445.5,234
+PNS,341,253.5
+A point,437,249
+B point,441,325.5
+Protuberance menti,445,341
+Pogonion,445,349.5
+Menton,434,369.5
+Go-1 Corpuus left,321,333.5
+Go-2 Ramus down,277,261
+Articulare,269,237.5
+R3,309.5,249
+R1,349.5,281
+Maxilla 1 crown,457.5,289
+Maxilla 1 root,433.5,252.5
+Mandible 1 crown,449.5,289
+Mandible 1 root,437.5,321.5
+Maxilla 6 distal,377,290
+Maxilla 6 root,381.5,262
+Mandible 6 distal,381,297
+Mandible 6 root,377.5,325.5
+Glabella,440.5,109
+Soft tissue naison,437.5,149.5
+Dorsum of nose,473.5,197.5
+pronasale,481.5,218
+Colunella,477,233.5
+Subnasalle,461,241.5
+Soft tissue A point,461.5,249
+Labrale superius,473,265.5
+Upper lip,477,277.5
+Stms,469,285.5
+Upper embrasure,457,285.5
+Lower embrasure,453.5,289
+Stmi,465,289
+Lower lip,473,297
+Labial Inferius,473.5,305
+Soft tissue b point,465,321
+Soft tissue pogonion,469,349.5
+Soft tissue Gnathion,461,373
+Soft tissue Menton,437,385
+Cervical point,377,401
+Nasion,429.5,173
+Sella,301.5,181
+Porion,249,213.5
+Orbitale,409.5,229
+Pterygoid,333,218
+Basion,245.5,257
+ANS,433.5,282
+PNS,330,273.5
+A point,421,293.5
+B point,409,373
+Protuberance menti,409.5,385.5
+Pogonion,409,393.5
+Menton,397.5,409.5
+Go-1 Corpuus left,289.5,349.5
+Go-2 Ramus down,265.5,265
+Articulare,261,241.5
+R3,304.5,265
+R1,333.5,301.5
+Maxilla 1 crown,429,336.5
+Maxilla 1 root,414,297
+Mandible 1 crown,422,333.5
+Mandible 1 root,405.5,365.5
+Maxilla 6 distal,357,314
+Maxilla 6 root,369,289
+Mandible 6 distal,357,324.5
+Mandible 6 root,350,353
+Glabella,448.5,149
+Soft tissue naison,437,189.5
+Dorsum of nose,465,245.5
+pronasale,473,269.5
+Colunella,465,285.5
+Subnasalle,449.5,293
+Soft tissue A point,445,297
+Labrale superius,449.5,317.5
+Upper lip,452.5,325.5
+Stms,441,336.5
+Upper embrasure,429.5,334
+Lower embrasure,425.5,337
+Stmi,437,337
+Lower lip,445.5,349
+Labial Inferius,445.5,353
+Soft tissue b point,433,369.5
+Soft tissue pogonion,433,393
+Soft tissue Gnathion,421,413
+Soft tissue Menton,401,421
+Cervical point,341,421
+Nasion,414,153
+Sella,285.5,177
+Porion,245,221
+Orbitale,400,209
+Pterygoid,321.5,209.5
+Basion,241.5,264.5
+ANS,425.5,261.5
+PNS,329,269
+A point,417,276.5
+B point,401.5,365
+Protuberance menti,401.5,381
+Pogonion,401.5,393.5
+Menton,389.5,409.5
+Go-1 Corpuus left,289,345.5
+Go-2 Ramus down,268.5,269
+Articulare,261,245.5
+R3,301.5,258
+R1,329.5,297
+Maxilla 1 crown,425,329
+Maxilla 1 root,409.5,281
+Mandible 1 crown,421.5,325.5
+Mandible 1 root,397.5,361.5
+Maxilla 6 distal,357,310
+Maxilla 6 root,365,281
+Mandible 6 distal,357,321
+Mandible 6 root,345.5,349.5
+Glabella,429,129
+Soft tissue naison,425.5,166
+Dorsum of nose,457.5,217
+pronasale,465.5,241
+Colunella,457,257.5
+Subnasalle,441.5,269
+Soft tissue A point,437,277
+Labrale superius,444.5,301.5
+Upper lip,448.5,313.5
+Stms,441,325
+Upper embrasure,429.5,322.5
+Lower embrasure,425,329
+Stmi,437.5,325.5
+Lower lip,441,341
+Labial Inferius,437,349
+Soft tissue b point,429,365
+Soft tissue pogonion,425,389
+Soft tissue Gnathion,413,413
+Soft tissue Menton,393,421
+Cervical point,349,429.5
+Nasion,426,149.5
+Sella,297,173.5
+Porion,249.5,213
+Orbitale,405.5,209
+Pterygoid,330,205
+Basion,249,257
+ANS,437,262
+PNS,333,265
+A point,429,277
+B point,417.5,357
+Protuberance menti,418,369.5
+Pogonion,417.5,377.5
+Menton,406,394
+Go-1 Corpuus left,293,345
+Go-2 Ramus down,269,261
+Articulare,265,241.5
+R3,302,250
+R1,337,289
+Maxilla 1 crown,437,321
+Maxilla 1 root,418,277.5
+Mandible 1 crown,430,317
+Mandible 1 root,413.5,349.5
+Maxilla 6 distal,365,301.5
+Maxilla 6 root,373,273.5
+Mandible 6 distal,361.5,309
+Mandible 6 root,357.5,341
+Glabella,444.5,129
+Soft tissue naison,437.5,169
+Dorsum of nose,469.5,225
+pronasale,478,250
+Colunella,469,265.5
+Subnasalle,457,269.5
+Soft tissue A point,453,277
+Labrale superius,461,297.5
+Upper lip,461.5,305.5
+Stms,453,317
+Upper embrasure,437.5,314
+Lower embrasure,433,321
+Stmi,449,317.5
+Lower lip,457,333
+Labial Inferius,453,341
+Soft tissue b point,445.5,353
+Soft tissue pogonion,441,381
+Soft tissue Gnathion,429,397.5
+Soft tissue Menton,409.5,409
+Cervical point,349,417
+Nasion,438,165.5
+Sella,301.5,173
+Porion,253.5,217
+Orbitale,417,229
+Pterygoid,337.5,217
+Basion,249.5,261.5
+ANS,437.5,281
+PNS,337.5,273.5
+A point,429,293
+B point,421.5,381.5
+Protuberance menti,422,397
+Pogonion,425,409.5
+Menton,410,425.5
+Go-1 Corpuus left,297,357.5
+Go-2 Ramus down,273,265
+Articulare,269,241.5
+R3,309.5,257
+R1,341.5,301
+Maxilla 1 crown,445,341
+Maxilla 1 root,421.5,297
+Mandible 1 crown,437.5,337.5
+Mandible 1 root,418,373.5
+Maxilla 6 distal,369,322
+Maxilla 6 root,380.5,293.5
+Mandible 6 distal,369,329
+Mandible 6 root,361.5,361
+Glabella,457,145.5
+Soft tissue naison,450,185
+Dorsum of nose,473.5,241
+pronasale,478,265.5
+Colunella,473,281
+Subnasalle,457,289.5
+Soft tissue A point,457,293
+Labrale superius,461.5,313.5
+Upper lip,468.5,325.5
+Stms,461,337
+Upper embrasure,445,334.5
+Lower embrasure,441.5,341
+Stmi,457,337
+Lower lip,464.5,349
+Labial Inferius,461,361
+Soft tissue b point,449,377.5
+Soft tissue pogonion,448.5,409.5
+Soft tissue Gnathion,437,429
+Soft tissue Menton,413,437
+Cervical point,341,437
+Nasion,428.5,165
+Sella,298,184.5
+Porion,249.5,213
+Orbitale,406,221
+Pterygoid,329.5,213.5
+Basion,245.5,257
+ANS,429.5,273.5
+PNS,329.5,265.5
+A point,417.5,285.5
+B point,401.5,365.5
+Protuberance menti,401.5,381.5
+Pogonion,401,393.5
+Menton,389.5,409.5
+Go-1 Corpuus left,285,349.5
+Go-2 Ramus down,269,261
+Articulare,264.5,241
+R3,304.5,256.5
+R1,329.5,297.5
+Maxilla 1 crown,429.5,337
+Maxilla 1 root,410,289.5
+Mandible 1 crown,418,329.5
+Mandible 1 root,397.5,361.5
+Maxilla 6 distal,353,309.5
+Maxilla 6 root,365.5,281
+Mandible 6 distal,353,317.5
+Mandible 6 root,341.5,349
+Glabella,445,142
+Soft tissue naison,437,182
+Dorsum of nose,465,241.5
+pronasale,472.5,261.5
+Colunella,465.5,277.5
+Subnasalle,445.5,285.5
+Soft tissue A point,445.5,289
+Labrale superius,449,309.5
+Upper lip,452.5,321.5
+Stms,441.5,333
+Upper embrasure,429.5,330
+Lower embrasure,425.5,333.5
+Stmi,437.5,333
+Lower lip,441,345
+Labial Inferius,437,353
+Soft tissue b point,429,365.5
+Soft tissue pogonion,425,389
+Soft tissue Gnathion,413,409
+Soft tissue Menton,393,421.5
+Cervical point,317,429

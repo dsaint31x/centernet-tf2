@@ -225,8 +225,8 @@ class CenterNet(object):
             label = label.encode('utf-8')
 
             ##################
-            print(label, top, left, bottom, right)
-            point_array.append([predicted_class, (top+bottom)/2, (left+right)/2]) # celes
+            #print(label, top, left, bottom, right)
+            point_array.append([predicted_class, (left+right)/2, (top+bottom)/2]) # celes
             
             if top - label_size[1] >= 0:
                 text_origin = np.array([left, top - label_size[1]])
@@ -241,8 +241,8 @@ class CenterNet(object):
 
         
         # celes -----------------------
-        array = pd.DataFrame(point_array)
-        array.to_csv('./csv/out.csv', index=False)
+        array = pd.DataFrame(point_array, columns=['predicted class', 'x', 'y'])
+        array.to_csv('./csv/out_panorama.csv', index=False)
         # -----------------------------
 
         return image
