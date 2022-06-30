@@ -3,6 +3,7 @@ import os
 import time
 
 import numpy as np
+import pandas as pd # celes
 import tensorflow as tf
 from PIL import ImageDraw, ImageFont
 
@@ -10,6 +11,10 @@ from nets.centernet import centernet
 from utils.utils import (cvtColor, get_classes, preprocess_input, resize_image,
                          show_config)
 from utils.utils_bbox import BBoxUtility
+
+
+point_array = [] # celes
+
 
 
 #--------------------------------------------#
@@ -192,7 +197,7 @@ class CenterNet(object):
         #---------------------------------------------------------#
         #   图像绘制
         #---------------------------------------------------------#
-
+        
         check_top_score = {} #dsaint31
         for i, c in list(enumerate(top_label)):
             predicted_class = self.class_names[int(c)]
@@ -200,7 +205,7 @@ class CenterNet(object):
             score           = top_conf[i]
 
             # dsaint31 -----------------------------
-            fsocre = float(score)
+            fscore = float(score)
             if fscore <= check_top_score.get(predicted_class,0.):
                 continue
             check_top_score[predicted_class] = fscore
@@ -218,7 +223,10 @@ class CenterNet(object):
             draw = ImageDraw.Draw(image)
             label_size = draw.textsize(label, font)
             label = label.encode('utf-8')
-            print(label, top, left, bottom, right)
+
+            ##################
+            #print(label, top, left, bottom, right)
+            point_array.append([predicted_class, (left+right)/2, (top+bottom)/2]) # celes
             
             if top - label_size[1] >= 0:
                 text_origin = np.array([left, top - label_size[1]])
@@ -230,6 +238,12 @@ class CenterNet(object):
             draw.rectangle([tuple(text_origin), tuple(text_origin + label_size)], fill=self.colors[c])
             draw.text(text_origin, str(label,'UTF-8'), fill=(0, 0, 0), font=font)
             del draw
+
+        
+        # celes -----------------------
+        array = pd.DataFrame(point_array, columns=['predicted class', 'x', 'y'])
+        array.to_csv('./csv/out_panorama.csv', index=False)
+        # -----------------------------
 
         return image
 

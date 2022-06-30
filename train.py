@@ -80,8 +80,9 @@ if __name__ == "__main__":
     #   如果一定要从0开始，可以了解imagenet数据集，首先训练分类模型，获得网络的主干部分权值，分类模型的 主干部分 和该模型通用，基于此进行训练。
     #----------------------------------------------------------------------------------------------------------------------------#
     # model_path      = 'model_data/centernet_resnet50_voc.h5'
-    model_path      = 'model_data/centernet_resnet50_ceph_voc.h5' #dsaint31
-    model_path      = 'logs/best_epoch_weights.h5' #dsaint31
+    #model_path      = 'model_data/centernet_resnet50_ceph_voc.h5' #dsaint31
+    #model_path      = 'logs/best_epoch_weights.h5' #dsaint31
+    model_path      = 'logs/best_epoch_0627.h5' # celes
     #---------------------------------------------------------------------#
     #   input_shape     输入的shape大小，32的倍数
     #---------------------------------------------------------------------#
@@ -207,8 +208,11 @@ if __name__ == "__main__":
     #   train_annotation_path   训练图片路径和标签
     #   val_annotation_path     验证图片路径和标签
     #------------------------------------------------------#
-    train_annotation_path   = '2007_train.txt'
-    val_annotation_path     = '2007_val.txt'
+    #train_annotation_path   = '2007_train.txt'
+    #val_annotation_path     = '2007_val.txt'
+
+    train_annotation_path   = './dataset/ImageSets/Layout/train.txt'
+    val_annotation_path     = './dataset/ImageSets/Layout/val.txt'
 
     #------------------------------------------------------#
     #   设置用到的显卡
@@ -285,9 +289,12 @@ if __name__ == "__main__":
     total_step  = num_train // Unfreeze_batch_size * UnFreeze_Epoch
     if total_step <= wanted_step:
         wanted_epoch = wanted_step // (num_train // Unfreeze_batch_size) + 1
-        print("\n\033[1;33;44m[Warning] 使用%s优化器时，建议将训练总步长设置到%d以上。\033[0m"%(optimizer_type, wanted_step))
-        print("\033[1;33;44m[Warning] 本次运行的总训练数据量为%d，Unfreeze_batch_size为%d，共训练%d个Epoch，计算出总训练步长为%d。\033[0m"%(num_train, Unfreeze_batch_size, UnFreeze_Epoch, total_step))
-        print("\033[1;33;44m[Warning] 由于总训练步长为%d，小于建议总步长%d，建议设置总世代为%d。\033[0m"%(total_step, wanted_step, wanted_epoch))
+        #print("\n\033[1;33;44m[Warning] 使用%s优化器时，建议将训练总步长设置到%d以上。\033[0m"%(optimizer_type, wanted_step))
+        print("\n\033[1;33;44m[Warning] When using the %s optimizer, it is recommended to set the total training step length above %d \033[0m"%(optimizer_type, wanted_step))
+        #print("\033[1;33;44m[Warning] 本次运行的总训练数据量为%d，Unfreeze_batch_size为%d，共训练%d个Epoch，计算出总训练步长为%d。\033[0m"%(num_train, Unfreeze_batch_size, UnFreeze_Epoch, total_step))
+        print("\033[1;33;44m[Warning] The total amount of training data is %d, Unfreeze_batch_size is %d, a total of %d Epochs are trained, and the total length of the training step is %d. \033[0m"%(num_train, Unfreeze_batch_size, UnFreeze_Epoch, total_step))
+        #print("\033[1;33;44m[Warning] 由于总训练步长为%d，小于建议总步长%d，建议设置总世代为%d。\033[0m"%(total_step, wanted_step, wanted_epoch))
+        print("\033[1;33;44m[Warning] Since the total training step length is %d, which is less than the recommended total step length, it is recommended to set the total generation to %d. \033[0m"%(total_step, wanted_step, wanted_epoch))
 
     #------------------------------------------------------#
     #   主干特征提取网络特征通用，冻结训练可以加快训练速度
@@ -332,7 +339,7 @@ if __name__ == "__main__":
         epoch_step_val  = num_val // batch_size
 
         if epoch_step == 0 or epoch_step_val == 0:
-            raise ValueError('数据集过小，无法进行训练，请扩充数据集。')
+            raise ValueError('The dataset is too small for training. Please expand the dataset.')
 
         train_dataloader    = CenternetDatasets(train_lines, input_shape, batch_size, num_classes, train = True)
         val_dataloader      = CenternetDatasets(val_lines, input_shape, batch_size, num_classes, train = False)
@@ -392,7 +399,7 @@ if __name__ == "__main__":
                     epoch_step_val  = num_val // batch_size
 
                     if epoch_step == 0 or epoch_step_val == 0:
-                        raise ValueError("数据集过小，无法继续进行训练，请扩充数据集。")
+                        raise ValueError("The dataset is too small to continue training. Please expand the dataset.")
 
                     train_dataloader.batch_size    = batch_size
                     val_dataloader.batch_size      = batch_size
@@ -498,7 +505,7 @@ if __name__ == "__main__":
                 epoch_step_val  = num_val // batch_size
 
                 if epoch_step == 0 or epoch_step_val == 0:
-                    raise ValueError("数据集过小，无法继续进行训练，请扩充数据集。")
+                    raise ValueError("The dataset is too small to continue training. Please expand the dataset.")
 
                 train_dataloader.batch_size    = Unfreeze_batch_size
                 val_dataloader.batch_size      = Unfreeze_batch_size
